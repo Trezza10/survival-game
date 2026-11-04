@@ -1,0 +1,7560 @@
+{
+  "regions": {
+    "tree1": {
+      "sheet": "trees",
+      "rect": [
+        109,
+        200,
+        221,
+        350
+      ]
+    },
+    "tree2": {
+      "sheet": "trees",
+      "rect": [
+        399,
+        110,
+        283,
+        440
+      ]
+    },
+    "tree3": {
+      "sheet": "trees",
+      "rect": [
+        721,
+        191,
+        308,
+        359
+      ]
+    },
+    "tree4": {
+      "sheet": "trees",
+      "rect": [
+        1051,
+        191,
+        313,
+        359
+      ]
+    },
+    "tree5": {
+      "sheet": "trees",
+      "rect": [
+        60,
+        600,
+        323,
+        343
+      ]
+    },
+    "tree6": {
+      "sheet": "trees",
+      "rect": [
+        426,
+        598,
+        275,
+        339
+      ]
+    },
+    "tree7": {
+      "sheet": "trees",
+      "rect": [
+        752,
+        643,
+        254,
+        298
+      ]
+    },
+    "adventurer_body": {
+      "sheet": "adventurer",
+      "rect": [
+        60,
+        602,
+        82,
+        126
+      ]
+    },
+    "rock1": {
+      "sheet": "rocks",
+      "rect": [
+        125,
+        96,
+        42,
+        38
+      ]
+    },
+    "rock2": {
+      "sheet": "rocks",
+      "rect": [
+        324,
+        89,
+        45,
+        37
+      ]
+    },
+    "rock3": {
+      "sheet": "rocks",
+      "rect": [
+        499,
+        60,
+        52,
+        47
+      ]
+    },
+    "rock4": {
+      "sheet": "rocks",
+      "rect": [
+        688,
+        58,
+        92,
+        73
+      ]
+    },
+    "rock5": {
+      "sheet": "rocks",
+      "rect": [
+        915,
+        92,
+        54,
+        45
+      ]
+    },
+    "rock6": {
+      "sheet": "rocks",
+      "rect": [
+        1056,
+        50,
+        123,
+        97
+      ]
+    },
+    "rock7": {
+      "sheet": "rocks",
+      "rect": [
+        1293,
+        52,
+        53,
+        41
+      ]
+    },
+    "rock8": {
+      "sheet": "rocks",
+      "rect": [
+        89,
+        216,
+        77,
+        57
+      ]
+    },
+    "rock9": {
+      "sheet": "rocks",
+      "rect": [
+        276,
+        204,
+        95,
+        74
+      ]
+    },
+    "rock10": {
+      "sheet": "rocks",
+      "rect": [
+        464,
+        197,
+        108,
+        84
+      ]
+    },
+    "rock11": {
+      "sheet": "rocks",
+      "rect": [
+        653,
+        190,
+        129,
+        98
+      ]
+    },
+    "rock12": {
+      "sheet": "rocks",
+      "rect": [
+        857,
+        194,
+        121,
+        92
+      ]
+    },
+    "rock13": {
+      "sheet": "rocks",
+      "rect": [
+        1053,
+        188,
+        135,
+        102
+      ]
+    },
+    "rock14": {
+      "sheet": "rocks",
+      "rect": [
+        1267,
+        201,
+        114,
+        87
+      ]
+    },
+    "rock15": {
+      "sheet": "rocks",
+      "rect": [
+        73,
+        352,
+        109,
+        80
+      ]
+    },
+    "rock16": {
+      "sheet": "rocks",
+      "rect": [
+        254,
+        344,
+        146,
+        104
+      ]
+    },
+    "rock17": {
+      "sheet": "rocks",
+      "rect": [
+        454,
+        343,
+        134,
+        101
+      ]
+    },
+    "rock18": {
+      "sheet": "rocks",
+      "rect": [
+        633,
+        334,
+        165,
+        115
+      ]
+    },
+    "rock19": {
+      "sheet": "rocks",
+      "rect": [
+        844,
+        337,
+        148,
+        113
+      ]
+    },
+    "rock20": {
+      "sheet": "rocks",
+      "rect": [
+        1038,
+        337,
+        158,
+        115
+      ]
+    },
+    "rock21": {
+      "sheet": "rocks",
+      "rect": [
+        1246,
+        337,
+        158,
+        109
+      ]
+    },
+    "rock22": {
+      "sheet": "rocks",
+      "rect": [
+        43,
+        511,
+        162,
+        109
+      ]
+    },
+    "rock23": {
+      "sheet": "rocks",
+      "rect": [
+        242,
+        496,
+        165,
+        130
+      ]
+    },
+    "rock24": {
+      "sheet": "rocks",
+      "rect": [
+        437,
+        500,
+        168,
+        131
+      ]
+    },
+    "rock25": {
+      "sheet": "rocks",
+      "rect": [
+        630,
+        485,
+        173,
+        146
+      ]
+    },
+    "rock26": {
+      "sheet": "rocks",
+      "rect": [
+        833,
+        503,
+        167,
+        129
+      ]
+    },
+    "rock27": {
+      "sheet": "rocks",
+      "rect": [
+        1030,
+        500,
+        171,
+        123
+      ]
+    },
+    "rock28": {
+      "sheet": "rocks",
+      "rect": [
+        1233,
+        490,
+        185,
+        142
+      ]
+    },
+    "rock29": {
+      "sheet": "rocks",
+      "rect": [
+        32,
+        697,
+        185,
+        159
+      ]
+    },
+    "rock30": {
+      "sheet": "rocks",
+      "rect": [
+        235,
+        692,
+        173,
+        164
+      ]
+    },
+    "rock31": {
+      "sheet": "rocks",
+      "rect": [
+        428,
+        697,
+        178,
+        157
+      ]
+    },
+    "rock32": {
+      "sheet": "rocks",
+      "rect": [
+        625,
+        669,
+        188,
+        186
+      ]
+    },
+    "rock33": {
+      "sheet": "rocks",
+      "rect": [
+        827,
+        702,
+        174,
+        154
+      ]
+    },
+    "rock34": {
+      "sheet": "rocks",
+      "rect": [
+        1025,
+        687,
+        175,
+        167
+      ]
+    },
+    "rock35": {
+      "sheet": "rocks",
+      "rect": [
+        1225,
+        671,
+        196,
+        189
+      ]
+    },
+    "rock36": {
+      "sheet": "rocks",
+      "rect": [
+        47,
+        910,
+        162,
+        131
+      ]
+    },
+    "rock37": {
+      "sheet": "rocks",
+      "rect": [
+        242,
+        909,
+        167,
+        132
+      ]
+    },
+    "rock38": {
+      "sheet": "rocks",
+      "rect": [
+        440,
+        911,
+        163,
+        130
+      ]
+    },
+    "rock39": {
+      "sheet": "rocks",
+      "rect": [
+        638,
+        909,
+        169,
+        132
+      ]
+    },
+    "rock40": {
+      "sheet": "rocks",
+      "rect": [
+        837,
+        910,
+        165,
+        130
+      ]
+    },
+    "rock41": {
+      "sheet": "rocks",
+      "rect": [
+        1038,
+        905,
+        167,
+        135
+      ]
+    },
+    "rock42": {
+      "sheet": "rocks",
+      "rect": [
+        1238,
+        909,
+        172,
+        132
+      ]
+    },
+    "foliage1": {
+      "sheet": "foliage",
+      "rect": [
+        62,
+        192,
+        98,
+        75
+      ]
+    },
+    "foliage2": {
+      "sheet": "foliage",
+      "rect": [
+        255,
+        179,
+        125,
+        88
+      ]
+    },
+    "foliage3": {
+      "sheet": "foliage",
+      "rect": [
+        461,
+        169,
+        120,
+        104
+      ]
+    },
+    "foliage4": {
+      "sheet": "foliage",
+      "rect": [
+        668,
+        168,
+        115,
+        105
+      ]
+    },
+    "foliage5": {
+      "sheet": "foliage",
+      "rect": [
+        874,
+        179,
+        114,
+        94
+      ]
+    },
+    "foliage6": {
+      "sheet": "foliage",
+      "rect": [
+        1079,
+        180,
+        116,
+        88
+      ]
+    },
+    "foliage7": {
+      "sheet": "foliage",
+      "rect": [
+        27,
+        421,
+        156,
+        118
+      ]
+    },
+    "foliage8": {
+      "sheet": "foliage",
+      "rect": [
+        235,
+        408,
+        164,
+        131
+      ]
+    },
+    "foliage9": {
+      "sheet": "foliage",
+      "rect": [
+        438,
+        408,
+        163,
+        131
+      ]
+    },
+    "foliage10": {
+      "sheet": "foliage",
+      "rect": [
+        648,
+        412,
+        155,
+        127
+      ]
+    },
+    "foliage11": {
+      "sheet": "foliage",
+      "rect": [
+        849,
+        410,
+        164,
+        129
+      ]
+    },
+    "foliage12": {
+      "sheet": "foliage",
+      "rect": [
+        1061,
+        401,
+        166,
+        140
+      ]
+    },
+    "foliage13": {
+      "sheet": "foliage",
+      "rect": [
+        22,
+        653,
+        162,
+        187
+      ]
+    },
+    "foliage14": {
+      "sheet": "foliage",
+      "rect": [
+        234,
+        653,
+        169,
+        187
+      ]
+    },
+    "foliage15": {
+      "sheet": "foliage",
+      "rect": [
+        440,
+        653,
+        159,
+        187
+      ]
+    },
+    "foliage16": {
+      "sheet": "foliage",
+      "rect": [
+        643,
+        656,
+        163,
+        184
+      ]
+    },
+    "foliage17": {
+      "sheet": "foliage",
+      "rect": [
+        847,
+        683,
+        169,
+        157
+      ]
+    },
+    "foliage18": {
+      "sheet": "foliage",
+      "rect": [
+        1046,
+        680,
+        188,
+        160
+      ]
+    },
+    "foliage19": {
+      "sheet": "foliage",
+      "rect": [
+        19,
+        966,
+        174,
+        152
+      ]
+    },
+    "foliage20": {
+      "sheet": "foliage",
+      "rect": [
+        232,
+        968,
+        170,
+        150
+      ]
+    },
+    "foliage21": {
+      "sheet": "foliage",
+      "rect": [
+        430,
+        968,
+        175,
+        150
+      ]
+    },
+    "foliage22": {
+      "sheet": "foliage",
+      "rect": [
+        641,
+        967,
+        174,
+        151
+      ]
+    },
+    "foliage23": {
+      "sheet": "foliage",
+      "rect": [
+        847,
+        948,
+        170,
+        170
+      ]
+    },
+    "foliage24": {
+      "sheet": "foliage",
+      "rect": [
+        1051,
+        947,
+        183,
+        171
+      ]
+    },
+    "forest_rabbit": {
+      "sheet": "forest_animals",
+      "rect": [
+        308,
+        35,
+        185,
+        215
+      ]
+    },
+    "forest_squirrel": {
+      "sheet": "forest_animals",
+      "rect": [
+        723,
+        48,
+        236,
+        202
+      ]
+    },
+    "forest_fox": {
+      "sheet": "forest_animals",
+      "rect": [
+        262,
+        303,
+        308,
+        208
+      ]
+    },
+    "forest_frog": {
+      "sheet": "forest_animals",
+      "rect": [
+        755,
+        355,
+        183,
+        148
+      ]
+    },
+    "forest_duck": {
+      "sheet": "forest_animals",
+      "rect": [
+        317,
+        561,
+        170,
+        165
+      ]
+    },
+    "forest_hedgehog": {
+      "sheet": "forest_animals",
+      "rect": [
+        734,
+        566,
+        209,
+        156
+      ]
+    },
+    "forest_fawn": {
+      "sheet": "forest_animals",
+      "rect": [
+        298,
+        766,
+        198,
+        222
+      ]
+    },
+    "forest_boar": {
+      "sheet": "forest_animals",
+      "rect": [
+        697,
+        780,
+        270,
+        195
+      ]
+    },
+    "forest_owl": {
+      "sheet": "forest_animals",
+      "rect": [
+        320,
+        1028,
+        167,
+        195
+      ]
+    },
+    "forest_raccoon": {
+      "sheet": "forest_animals",
+      "rect": [
+        704,
+        1058,
+        243,
+        163
+      ]
+    },
+    "campfire_frame0": {
+      "sheet": "campfire",
+      "rect": [
+        227,
+        160,
+        360,
+        390
+      ]
+    },
+    "campfire_frame1": {
+      "sheet": "campfire",
+      "rect": [
+        907,
+        160,
+        360,
+        390
+      ]
+    },
+    "campfire_frame2": {
+      "sheet": "campfire",
+      "rect": [
+        1587,
+        160,
+        360,
+        390
+      ]
+    },
+    "default_player_body": {
+      "sheet": "default_player",
+      "rect": [
+        0,
+        0,
+        240,
+        280
+      ]
+    },
+    "monster_SlimeGreen": {
+      "sheet": "monsters",
+      "rect": [
+        303,
+        61,
+        102,
+        73
+      ]
+    },
+    "monster_SlimeBlue": {
+      "sheet": "monsters",
+      "rect": [
+        434,
+        63,
+        99,
+        71
+      ]
+    },
+    "monster_SlimePurple": {
+      "sheet": "monsters",
+      "rect": [
+        563,
+        63,
+        100,
+        71
+      ]
+    },
+    "monster_RedMushroom": {
+      "sheet": "monsters",
+      "rect": [
+        687,
+        22,
+        125,
+        116
+      ]
+    },
+    "monster_GoldMushroom": {
+      "sheet": "monsters",
+      "rect": [
+        831,
+        28,
+        116,
+        110
+      ]
+    },
+    "monster_SnapPlant": {
+      "sheet": "monsters",
+      "rect": [
+        964,
+        10,
+        130,
+        131
+      ]
+    },
+    "monster_Bat": {
+      "sheet": "monsters",
+      "rect": [
+        258,
+        174,
+        186,
+        91
+      ]
+    },
+    "monster_Bee": {
+      "sheet": "monsters",
+      "rect": [
+        467,
+        162,
+        103,
+        106
+      ]
+    },
+    "monster_Spider": {
+      "sheet": "monsters",
+      "rect": [
+        601,
+        176,
+        150,
+        97
+      ]
+    },
+    "monster_Rat": {
+      "sheet": "monsters",
+      "rect": [
+        771,
+        180,
+        162,
+        89
+      ]
+    },
+    "monster_Boar": {
+      "sheet": "monsters",
+      "rect": [
+        951,
+        154,
+        174,
+        122
+      ]
+    },
+    "monster_Goblin": {
+      "sheet": "monsters",
+      "rect": [
+        289,
+        321,
+        125,
+        115
+      ]
+    },
+    "monster_HelmetGoblin": {
+      "sheet": "monsters",
+      "rect": [
+        449,
+        296,
+        124,
+        141
+      ]
+    },
+    "monster_HornGoblin": {
+      "sheet": "monsters",
+      "rect": [
+        614,
+        302,
+        121,
+        136
+      ]
+    },
+    "monster_Mage": {
+      "sheet": "monsters",
+      "rect": [
+        772,
+        301,
+        162,
+        137
+      ]
+    },
+    "monster_StoneGolem": {
+      "sheet": "monsters",
+      "rect": [
+        961,
+        290,
+        168,
+        154
+      ]
+    },
+    "monster_BlueWisp": {
+      "sheet": "monsters",
+      "rect": [
+        346,
+        468,
+        101,
+        130
+      ]
+    },
+    "monster_FireWisp": {
+      "sheet": "monsters",
+      "rect": [
+        508,
+        473,
+        98,
+        130
+      ]
+    },
+    "monster_CrystalCreature": {
+      "sheet": "monsters",
+      "rect": [
+        670,
+        473,
+        164,
+        139
+      ]
+    },
+    "monster_Runestone": {
+      "sheet": "monsters",
+      "rect": [
+        869,
+        454,
+        204,
+        158
+      ]
+    },
+    "monster_MossGolem": {
+      "sheet": "monsters",
+      "rect": [
+        203,
+        631,
+        334,
+        269
+      ]
+    },
+    "monster_MushroomGiant": {
+      "sheet": "monsters",
+      "rect": [
+        563,
+        645,
+        281,
+        260
+      ]
+    },
+    "monster_TreeGiant": {
+      "sheet": "monsters",
+      "rect": [
+        889,
+        621,
+        329,
+        284
+      ]
+    },
+    "monster_GlowSlimeGreen": {
+      "sheet": "monsters",
+      "rect": [
+        272,
+        954,
+        124,
+        89
+      ]
+    },
+    "monster_GlowSlimeTeal": {
+      "sheet": "monsters",
+      "rect": [
+        425,
+        954,
+        123,
+        89
+      ]
+    },
+    "monster_GlowSlimeBlue": {
+      "sheet": "monsters",
+      "rect": [
+        575,
+        954,
+        109,
+        60
+      ]
+    },
+    "monster_GlowSlimePurple": {
+      "sheet": "monsters",
+      "rect": [
+        724,
+        954,
+        124,
+        89
+      ]
+    },
+    "monster_GlowSlimePink": {
+      "sheet": "monsters",
+      "rect": [
+        874,
+        954,
+        124,
+        89
+      ]
+    },
+    "monster_GlowSlimeOrange": {
+      "sheet": "monsters",
+      "rect": [
+        1026,
+        954,
+        126,
+        89
+      ]
+    },
+    "wood_fence_horizontal": {
+      "sheet": "wooden_fences",
+      "rect": [
+        232,
+        160,
+        335,
+        250
+      ]
+    },
+    "wood_fence_vertical": {
+      "sheet": "wooden_fences",
+      "rect": [
+        642,
+        55,
+        148,
+        388
+      ]
+    },
+    "wood_gate_closed": {
+      "sheet": "wooden_fences",
+      "rect": [
+        878,
+        145,
+        400,
+        275
+      ]
+    },
+    "wood_gate_vertical": {
+      "sheet": "wooden_fences",
+      "rect": [
+        1380,
+        48,
+        175,
+        410
+      ]
+    },
+    "wood_gate_open_left": {
+      "sheet": "wooden_fences",
+      "rect": [
+        236,
+        540,
+        249,
+        290
+      ]
+    },
+    "wood_gate_open_right": {
+      "sheet": "wooden_fences",
+      "rect": [
+        589,
+        540,
+        253,
+        290
+      ]
+    },
+    "wood_gate_open_side": {
+      "sheet": "wooden_fences",
+      "rect": [
+        968,
+        540,
+        251,
+        295
+      ]
+    },
+    "wood_gate_open_vertical": {
+      "sheet": "wooden_fences",
+      "rect": [
+        1250,
+        477,
+        260,
+        380
+      ]
+    }
+  },
+  "placements": [
+    {
+      "node": "EnvironmentTree01",
+      "sprite": "tree1",
+      "position": [
+        692.88,
+        252.49
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree02",
+      "sprite": "tree2",
+      "position": [
+        245.87,
+        166.05
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree03",
+      "sprite": "tree3",
+      "position": [
+        934.83,
+        245.67
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree04",
+      "sprite": "tree4",
+      "position": [
+        950,
+        881.27
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree05",
+      "sprite": "tree5",
+      "position": [
+        950,
+        808.57
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree06",
+      "sprite": "tree6",
+      "position": [
+        198.52,
+        238.74
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree07",
+      "sprite": "tree7",
+      "position": [
+        1040.25,
+        802.01
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree08",
+      "sprite": "tree1",
+      "position": [
+        516.58,
+        284.58
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree09",
+      "sprite": "tree2",
+      "position": [
+        502.39,
+        464.61
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree10",
+      "sprite": "tree3",
+      "position": [
+        890.1,
+        764.54
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree11",
+      "sprite": "tree4",
+      "position": [
+        950.59,
+        173.96
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree12",
+      "sprite": "tree5",
+      "position": [
+        258.64,
+        631.44
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree13",
+      "sprite": "tree6",
+      "position": [
+        211.41,
+        699.55
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree14",
+      "sprite": "tree7",
+      "position": [
+        981.23,
+        729.1
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree15",
+      "sprite": "tree1",
+      "position": [
+        716.86,
+        635.05
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree16",
+      "sprite": "tree2",
+      "position": [
+        1150.4,
+        380.15
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree17",
+      "sprite": "tree3",
+      "position": [
+        977.6,
+        578.6
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree18",
+      "sprite": "tree4",
+      "position": [
+        995.25,
+        440.66
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree19",
+      "sprite": "tree5",
+      "position": [
+        841.53,
+        227.9
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree20",
+      "sprite": "tree6",
+      "position": [
+        933.98,
+        369.66
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree21",
+      "sprite": "tree7",
+      "position": [
+        457.95,
+        372.75
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree22",
+      "sprite": "tree1",
+      "position": [
+        436.17,
+        535.45
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree23",
+      "sprite": "tree2",
+      "position": [
+        769.44,
+        261.01
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree24",
+      "sprite": "tree3",
+      "position": [
+        1121.91,
+        860.88
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree25",
+      "sprite": "tree4",
+      "position": [
+        270,
+        867.48
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree26",
+      "sprite": "tree5",
+      "position": [
+        952.06,
+        801.44
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree27",
+      "sprite": "tree6",
+      "position": [
+        245.87,
+        800.82
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree28",
+      "sprite": "tree7",
+      "position": [
+        1005.56,
+        865.43
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree29",
+      "sprite": "tree1",
+      "position": [
+        673.93,
+        710.8
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree30",
+      "sprite": "tree3",
+      "position": [
+        208.19,
+        384.03
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree31",
+      "sprite": "tree5",
+      "position": [
+        712.96,
+        328.34
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentTree32",
+      "sprite": "tree6",
+      "position": [
+        925.24,
+        528.79
+      ],
+      "scale": 1.4
+    },
+    {
+      "node": "EnvironmentRock01",
+      "sprite": "rock1",
+      "position": [
+        240.74,
+        277.87
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock02",
+      "sprite": "rock2",
+      "position": [
+        475.56,
+        457.98
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock03",
+      "sprite": "rock3",
+      "position": [
+        665.28,
+        649.25
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock04",
+      "sprite": "rock4",
+      "position": [
+        929.11,
+        291.0
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock05",
+      "sprite": "rock5",
+      "position": [
+        973.7,
+        788.47
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock06",
+      "sprite": "rock6",
+      "position": [
+        851.62,
+        758.46
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock07",
+      "sprite": "rock7",
+      "position": [
+        742.67,
+        861.04
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock08",
+      "sprite": "rock8",
+      "position": [
+        282.91,
+        805.59
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock09",
+      "sprite": "rock9",
+      "position": [
+        1111.27,
+        645.35
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock10",
+      "sprite": "rock10",
+      "position": [
+        64.23,
+        582.58
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock11",
+      "sprite": "rock11",
+      "position": [
+        205.15,
+        234.35
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock12",
+      "sprite": "rock12",
+      "position": [
+        400.57,
+        436.64
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock13",
+      "sprite": "rock13",
+      "position": [
+        697.42,
+        621.04
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock14",
+      "sprite": "rock14",
+      "position": [
+        974.83,
+        343.92
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock15",
+      "sprite": "rock15",
+      "position": [
+        953.81,
+        775.11
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock16",
+      "sprite": "rock16",
+      "position": [
+        825.81,
+        747.34
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock17",
+      "sprite": "rock17",
+      "position": [
+        793.25,
+        815.94
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock18",
+      "sprite": "rock18",
+      "position": [
+        334.26,
+        838.19
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock19",
+      "sprite": "rock19",
+      "position": [
+        1172,
+        624.2
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock20",
+      "sprite": "rock20",
+      "position": [
+        38.23,
+        564.17
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock21",
+      "sprite": "rock21",
+      "position": [
+        163.66,
+        230.15
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock22",
+      "sprite": "rock22",
+      "position": [
+        444.66,
+        418.87
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock23",
+      "sprite": "rock23",
+      "position": [
+        689.84,
+        670.07
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock24",
+      "sprite": "rock24",
+      "position": [
+        958.29,
+        277.18
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock25",
+      "sprite": "rock25",
+      "position": [
+        1013.04,
+        808.78
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock26",
+      "sprite": "rock26",
+      "position": [
+        810.04,
+        768.44
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock27",
+      "sprite": "rock27",
+      "position": [
+        804.55,
+        843.2
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock28",
+      "sprite": "rock28",
+      "position": [
+        284.23,
+        852.18
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock29",
+      "sprite": "rock29",
+      "position": [
+        1156.95,
+        681.87
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock30",
+      "sprite": "rock30",
+      "position": [
+        29.65,
+        612.59
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock31",
+      "sprite": "rock31",
+      "position": [
+        206.01,
+        264.38
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock32",
+      "sprite": "rock32",
+      "position": [
+        470.37,
+        407.86
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock33",
+      "sprite": "rock33",
+      "position": [
+        654.18,
+        622.18
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock34",
+      "sprite": "rock34",
+      "position": [
+        883.58,
+        336.12
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock35",
+      "sprite": "rock35",
+      "position": [
+        940.18,
+        822.72
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock36",
+      "sprite": "rock36",
+      "position": [
+        893.18,
+        771.09
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock37",
+      "sprite": "rock37",
+      "position": [
+        816.62,
+        822.16
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock38",
+      "sprite": "rock38",
+      "position": [
+        371.57,
+        833.57
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock39",
+      "sprite": "rock39",
+      "position": [
+        1148.62,
+        626.75
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock40",
+      "sprite": "rock40",
+      "position": [
+        96.46,
+        575.89
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock41",
+      "sprite": "rock41",
+      "position": [
+        157.62,
+        291.71
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentRock42",
+      "sprite": "rock42",
+      "position": [
+        433.0,
+        452.61
+      ],
+      "scale": 1.5
+    },
+    {
+      "node": "EnvironmentFoliage001",
+      "sprite": "foliage1",
+      "position": [
+        1080.53,
+        819.05
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage002",
+      "sprite": "foliage2",
+      "position": [
+        1072.53,
+        834.23
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage003",
+      "sprite": "foliage3",
+      "position": [
+        1074.65,
+        848.61
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage004",
+      "sprite": "foliage4",
+      "position": [
+        1122.9,
+        822.26
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage005",
+      "sprite": "foliage5",
+      "position": [
+        1133.35,
+        820.43
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage006",
+      "sprite": "foliage6",
+      "position": [
+        1071.93,
+        790.7
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage007",
+      "sprite": "foliage7",
+      "position": [
+        1096.83,
+        841.17
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage008",
+      "sprite": "foliage8",
+      "position": [
+        1046.9,
+        857.1
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage009",
+      "sprite": "foliage9",
+      "position": [
+        998.12,
+        777.55
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage010",
+      "sprite": "foliage10",
+      "position": [
+        1138.35,
+        772.01
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage011",
+      "sprite": "foliage11",
+      "position": [
+        1086.05,
+        770.04
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage012",
+      "sprite": "foliage12",
+      "position": [
+        1079.2,
+        783.97
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage013",
+      "sprite": "foliage13",
+      "position": [
+        1006.84,
+        783.86
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage014",
+      "sprite": "foliage14",
+      "position": [
+        1011.84,
+        835.12
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage015",
+      "sprite": "foliage15",
+      "position": [
+        1063.86,
+        776.0
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage016",
+      "sprite": "foliage16",
+      "position": [
+        996.67,
+        796.45
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage017",
+      "sprite": "foliage17",
+      "position": [
+        1133.38,
+        765.18
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage018",
+      "sprite": "foliage18",
+      "position": [
+        1100.99,
+        823.79
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage019",
+      "sprite": "foliage19",
+      "position": [
+        1064.67,
+        761.03
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage020",
+      "sprite": "foliage20",
+      "position": [
+        1030.07,
+        864.25
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage021",
+      "sprite": "foliage21",
+      "position": [
+        1001.64,
+        813.74
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage022",
+      "sprite": "foliage22",
+      "position": [
+        1074.47,
+        777.52
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage023",
+      "sprite": "foliage23",
+      "position": [
+        1045.93,
+        840.04
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage024",
+      "sprite": "foliage24",
+      "position": [
+        1081.26,
+        788.78
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage025",
+      "sprite": "foliage1",
+      "position": [
+        313.96,
+        589.09
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage026",
+      "sprite": "foliage2",
+      "position": [
+        918.18,
+        814.81
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage027",
+      "sprite": "foliage3",
+      "position": [
+        341.81,
+        797.0
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage028",
+      "sprite": "foliage4",
+      "position": [
+        997.87,
+        831.49
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage029",
+      "sprite": "foliage5",
+      "position": [
+        203.59,
+        509.25
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage030",
+      "sprite": "foliage6",
+      "position": [
+        963.52,
+        676.22
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage031",
+      "sprite": "foliage7",
+      "position": [
+        651.09,
+        533.15
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage032",
+      "sprite": "foliage8",
+      "position": [
+        553.49,
+        522.61
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage033",
+      "sprite": "foliage9",
+      "position": [
+        511.37,
+        328.92
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage034",
+      "sprite": "foliage10",
+      "position": [
+        180.11,
+        821.99
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage035",
+      "sprite": "foliage11",
+      "position": [
+        766.62,
+        600.45
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage036",
+      "sprite": "foliage12",
+      "position": [
+        1133.43,
+        745.41
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage037",
+      "sprite": "foliage13",
+      "position": [
+        1118.63,
+        858.23
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage038",
+      "sprite": "foliage14",
+      "position": [
+        791.1,
+        711.13
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage039",
+      "sprite": "foliage15",
+      "position": [
+        865.67,
+        236.79
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage040",
+      "sprite": "foliage16",
+      "position": [
+        839.38,
+        811.58
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage041",
+      "sprite": "foliage17",
+      "position": [
+        1112.4,
+        806.23
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage042",
+      "sprite": "foliage18",
+      "position": [
+        403.54,
+        358.16
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage043",
+      "sprite": "foliage19",
+      "position": [
+        492.6,
+        230.47
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage044",
+      "sprite": "foliage20",
+      "position": [
+        789.66,
+        537.71
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage045",
+      "sprite": "foliage21",
+      "position": [
+        727.88,
+        399.31
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage046",
+      "sprite": "foliage22",
+      "position": [
+        194.65,
+        504.94
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage047",
+      "sprite": "foliage23",
+      "position": [
+        569.12,
+        153.45
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage048",
+      "sprite": "foliage24",
+      "position": [
+        708.47,
+        847.93
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage049",
+      "sprite": "foliage1",
+      "position": [
+        55.33,
+        251.72
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage050",
+      "sprite": "foliage2",
+      "position": [
+        684.96,
+        712.37
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage051",
+      "sprite": "foliage3",
+      "position": [
+        804.36,
+        590.85
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage052",
+      "sprite": "foliage4",
+      "position": [
+        282.06,
+        403.62
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage053",
+      "sprite": "foliage5",
+      "position": [
+        242.47,
+        427.1
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage054",
+      "sprite": "foliage6",
+      "position": [
+        669.62,
+        249.23
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage056",
+      "sprite": "foliage8",
+      "position": [
+        941.53,
+        394.6
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage058",
+      "sprite": "foliage10",
+      "position": [
+        496.9,
+        661.27
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage060",
+      "sprite": "foliage12",
+      "position": [
+        477.69,
+        595.53
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage061",
+      "sprite": "foliage13",
+      "position": [
+        321.83,
+        658.39
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage062",
+      "sprite": "foliage14",
+      "position": [
+        990.28,
+        777.2
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage063",
+      "sprite": "foliage15",
+      "position": [
+        472.59,
+        651.96
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage064",
+      "sprite": "foliage16",
+      "position": [
+        58.33,
+        710.43
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage065",
+      "sprite": "foliage17",
+      "position": [
+        921.89,
+        229.66
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage066",
+      "sprite": "foliage18",
+      "position": [
+        896.3,
+        550.93
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage067",
+      "sprite": "foliage19",
+      "position": [
+        341.7,
+        562.75
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage068",
+      "sprite": "foliage20",
+      "position": [
+        237.23,
+        536.23
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage069",
+      "sprite": "foliage21",
+      "position": [
+        75.71,
+        298.43
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage070",
+      "sprite": "foliage22",
+      "position": [
+        571.38,
+        238.32
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage071",
+      "sprite": "foliage23",
+      "position": [
+        304.28,
+        330.83
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage072",
+      "sprite": "foliage24",
+      "position": [
+        228.47,
+        284.81
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage073",
+      "sprite": "foliage1",
+      "position": [
+        383.0,
+        690.68
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage074",
+      "sprite": "foliage2",
+      "position": [
+        770.55,
+        68.57
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage076",
+      "sprite": "foliage4",
+      "position": [
+        650.45,
+        469.38
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage077",
+      "sprite": "foliage5",
+      "position": [
+        405.66,
+        441.0
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage078",
+      "sprite": "foliage6",
+      "position": [
+        515.74,
+        148.78
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage079",
+      "sprite": "foliage7",
+      "position": [
+        838.12,
+        824.69
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage080",
+      "sprite": "foliage8",
+      "position": [
+        145.78,
+        730.93
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage081",
+      "sprite": "foliage9",
+      "position": [
+        673.23,
+        592.88
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage082",
+      "sprite": "foliage10",
+      "position": [
+        678.6,
+        756.5
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage083",
+      "sprite": "foliage11",
+      "position": [
+        412.84,
+        814.39
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage084",
+      "sprite": "foliage12",
+      "position": [
+        1106.95,
+        209.49
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage085",
+      "sprite": "foliage13",
+      "position": [
+        1168.6,
+        126.28
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage086",
+      "sprite": "foliage14",
+      "position": [
+        958.75,
+        307.6
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage087",
+      "sprite": "foliage15",
+      "position": [
+        793.35,
+        431.76
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage088",
+      "sprite": "foliage16",
+      "position": [
+        519.48,
+        377.28
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage089",
+      "sprite": "foliage17",
+      "position": [
+        1116.91,
+        525.66
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage090",
+      "sprite": "foliage18",
+      "position": [
+        764.85,
+        524.65
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage091",
+      "sprite": "foliage19",
+      "position": [
+        267.84,
+        230.67
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage092",
+      "sprite": "foliage20",
+      "position": [
+        1110.82,
+        375.91
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage093",
+      "sprite": "foliage21",
+      "position": [
+        958.69,
+        439.49
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage094",
+      "sprite": "foliage22",
+      "position": [
+        366.85,
+        205.08
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage095",
+      "sprite": "foliage23",
+      "position": [
+        841.15,
+        53.93
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage096",
+      "sprite": "foliage24",
+      "position": [
+        124.71,
+        171.47
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage097",
+      "sprite": "foliage1",
+      "position": [
+        165.8,
+        445.95
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage098",
+      "sprite": "foliage2",
+      "position": [
+        450.93,
+        247.14
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage099",
+      "sprite": "foliage3",
+      "position": [
+        1140.26,
+        394.13
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage100",
+      "sprite": "foliage4",
+      "position": [
+        1014.22,
+        696.77
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage102",
+      "sprite": "foliage6",
+      "position": [
+        721.48,
+        168.5
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage103",
+      "sprite": "foliage7",
+      "position": [
+        766.8,
+        282.68
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage104",
+      "sprite": "foliage8",
+      "position": [
+        198.51,
+        649.82
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage105",
+      "sprite": "foliage9",
+      "position": [
+        58.44,
+        415.65
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage106",
+      "sprite": "foliage10",
+      "position": [
+        619.94,
+        164.24
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage107",
+      "sprite": "foliage11",
+      "position": [
+        989.37,
+        280.92
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage108",
+      "sprite": "foliage12",
+      "position": [
+        849.56,
+        332.18
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage109",
+      "sprite": "foliage13",
+      "position": [
+        415.18,
+        306.98
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage110",
+      "sprite": "foliage14",
+      "position": [
+        292.33,
+        511.95
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage111",
+      "sprite": "foliage15",
+      "position": [
+        962.09,
+        446.27
+      ]
+    },
+    {
+      "node": "EnvironmentFoliage112",
+      "sprite": "foliage16",
+      "position": [
+        942.78,
+        832.45
+      ]
+    },
+    {
+      "node": "MeadowGrass001",
+      "sprite": "foliage1",
+      "position": [
+        977.99,
+        158.22
+      ]
+    },
+    {
+      "node": "MeadowGrass002",
+      "sprite": "foliage14",
+      "position": [
+        536.59,
+        437.48
+      ]
+    },
+    {
+      "node": "MeadowGrass003",
+      "sprite": "foliage8",
+      "position": [
+        738.94,
+        254.87
+      ]
+    },
+    {
+      "node": "MeadowGrass004",
+      "sprite": "foliage8",
+      "position": [
+        136.34,
+        586.67
+      ]
+    },
+    {
+      "node": "MeadowGrass005",
+      "sprite": "foliage5",
+      "position": [
+        234.52,
+        883.33
+      ]
+    },
+    {
+      "node": "MeadowGrass006",
+      "sprite": "foliage6",
+      "position": [
+        790.22,
+        246.76
+      ]
+    },
+    {
+      "node": "MeadowGrass007",
+      "sprite": "foliage1",
+      "position": [
+        143.44,
+        367.37
+      ]
+    },
+    {
+      "node": "MeadowGrass008",
+      "sprite": "foliage2",
+      "position": [
+        731.06,
+        298.05
+      ]
+    },
+    {
+      "node": "MeadowGrass009",
+      "sprite": "foliage1",
+      "position": [
+        272.51,
+        60.51
+      ]
+    },
+    {
+      "node": "MeadowGrass010",
+      "sprite": "foliage17",
+      "position": [
+        987.29,
+        201.79
+      ]
+    },
+    {
+      "node": "MeadowGrass011",
+      "sprite": "foliage17",
+      "position": [
+        1169.23,
+        414.42
+      ]
+    },
+    {
+      "node": "MeadowGrass012",
+      "sprite": "foliage6",
+      "position": [
+        222.52,
+        660.52
+      ]
+    },
+    {
+      "node": "MeadowGrass013",
+      "sprite": "foliage8",
+      "position": [
+        907.22,
+        246.82
+      ]
+    },
+    {
+      "node": "MeadowGrass014",
+      "sprite": "foliage5",
+      "position": [
+        1087.66,
+        763.56
+      ]
+    },
+    {
+      "node": "MeadowGrass015",
+      "sprite": "foliage11",
+      "position": [
+        484.38,
+        523.54
+      ]
+    },
+    {
+      "node": "MeadowGrass016",
+      "sprite": "foliage5",
+      "position": [
+        662.28,
+        240.05
+      ]
+    },
+    {
+      "node": "MeadowGrass017",
+      "sprite": "foliage7",
+      "position": [
+        1126.39,
+        846.14
+      ]
+    },
+    {
+      "node": "MeadowGrass018",
+      "sprite": "foliage2",
+      "position": [
+        409.13,
+        561.07
+      ]
+    },
+    {
+      "node": "MeadowGrass019",
+      "sprite": "foliage13",
+      "position": [
+        561.92,
+        413.48
+      ]
+    },
+    {
+      "node": "MeadowGrass020",
+      "sprite": "foliage13",
+      "position": [
+        855.15,
+        253.02
+      ]
+    },
+    {
+      "node": "MeadowGrass021",
+      "sprite": "foliage17",
+      "position": [
+        1055.85,
+        792.85
+      ]
+    },
+    {
+      "node": "MeadowGrass022",
+      "sprite": "foliage1",
+      "position": [
+        1023.85,
+        203.92
+      ]
+    },
+    {
+      "node": "MeadowGrass023",
+      "sprite": "foliage13",
+      "position": [
+        154.16,
+        666.91
+      ]
+    },
+    {
+      "node": "MeadowGrass024",
+      "sprite": "foliage17",
+      "position": [
+        717.17,
+        865.74
+      ]
+    },
+    {
+      "node": "MeadowGrass025",
+      "sprite": "foliage12",
+      "position": [
+        988.5,
+        367.08
+      ]
+    },
+    {
+      "node": "MeadowGrass026",
+      "sprite": "foliage2",
+      "position": [
+        121.53,
+        794.67
+      ]
+    },
+    {
+      "node": "MeadowGrass027",
+      "sprite": "foliage2",
+      "position": [
+        466.97,
+        552.36
+      ]
+    },
+    {
+      "node": "MeadowGrass028",
+      "sprite": "foliage5",
+      "position": [
+        684.99,
+        294.47
+      ]
+    },
+    {
+      "node": "MeadowGrass029",
+      "sprite": "foliage7",
+      "position": [
+        377.85,
+        626.1
+      ]
+    },
+    {
+      "node": "MeadowGrass030",
+      "sprite": "foliage8",
+      "position": [
+        888.39,
+        444.05
+      ]
+    },
+    {
+      "node": "MeadowGrass031",
+      "sprite": "foliage6",
+      "position": [
+        465.3,
+        787.35
+      ]
+    },
+    {
+      "node": "MeadowGrass032",
+      "sprite": "foliage8",
+      "position": [
+        1043.37,
+        851.04
+      ]
+    },
+    {
+      "node": "MeadowGrass033",
+      "sprite": "foliage13",
+      "position": [
+        752.63,
+        632.7
+      ]
+    },
+    {
+      "node": "MeadowGrass034",
+      "sprite": "foliage7",
+      "position": [
+        277.37,
+        576.34
+      ]
+    },
+    {
+      "node": "MeadowGrass035",
+      "sprite": "foliage7",
+      "position": [
+        203.36,
+        864.29
+      ]
+    },
+    {
+      "node": "MeadowGrass036",
+      "sprite": "foliage1",
+      "position": [
+        725.46,
+        878.83
+      ]
+    },
+    {
+      "node": "MeadowGrass037",
+      "sprite": "foliage11",
+      "position": [
+        952.57,
+        860.39
+      ]
+    },
+    {
+      "node": "MeadowGrass038",
+      "sprite": "foliage5",
+      "position": [
+        463.59,
+        517.0
+      ]
+    },
+    {
+      "node": "MeadowGrass039",
+      "sprite": "foliage5",
+      "position": [
+        1114.95,
+        420.77
+      ]
+    },
+    {
+      "node": "MeadowGrass040",
+      "sprite": "foliage12",
+      "position": [
+        391.87,
+        132.86
+      ]
+    },
+    {
+      "node": "MeadowGrass041",
+      "sprite": "foliage2",
+      "position": [
+        858.17,
+        822.93
+      ]
+    },
+    {
+      "node": "MeadowGrass042",
+      "sprite": "foliage17",
+      "position": [
+        762.12,
+        339.93
+      ]
+    },
+    {
+      "node": "MeadowGrass043",
+      "sprite": "foliage12",
+      "position": [
+        999.48,
+        390.68
+      ]
+    },
+    {
+      "node": "MeadowGrass044",
+      "sprite": "foliage12",
+      "position": [
+        226.24,
+        578.08
+      ]
+    },
+    {
+      "node": "MeadowGrass045",
+      "sprite": "foliage8",
+      "position": [
+        319.5,
+        778.39
+      ]
+    },
+    {
+      "node": "MeadowGrass046",
+      "sprite": "foliage18",
+      "position": [
+        483.07,
+        545.53
+      ]
+    },
+    {
+      "node": "MeadowGrass047",
+      "sprite": "foliage7",
+      "position": [
+        509.75,
+        353.0
+      ]
+    },
+    {
+      "node": "MeadowGrass048",
+      "sprite": "foliage5",
+      "position": [
+        662.18,
+        382.76
+      ]
+    },
+    {
+      "node": "MeadowGrass049",
+      "sprite": "foliage1",
+      "position": [
+        758.2,
+        710.25
+      ]
+    },
+    {
+      "node": "MeadowGrass050",
+      "sprite": "foliage11",
+      "position": [
+        206.77,
+        381.45
+      ]
+    },
+    {
+      "node": "MeadowGrass051",
+      "sprite": "foliage6",
+      "position": [
+        515.52,
+        649.7
+      ]
+    },
+    {
+      "node": "MeadowGrass052",
+      "sprite": "foliage5",
+      "position": [
+        99.73,
+        390.73
+      ]
+    },
+    {
+      "node": "MeadowGrass053",
+      "sprite": "foliage14",
+      "position": [
+        749.67,
+        419.63
+      ]
+    },
+    {
+      "node": "MeadowGrass054",
+      "sprite": "foliage12",
+      "position": [
+        284.22,
+        98.04
+      ]
+    },
+    {
+      "node": "MeadowGrass055",
+      "sprite": "foliage7",
+      "position": [
+        631.97,
+        827.36
+      ]
+    },
+    {
+      "node": "MeadowGrass056",
+      "sprite": "foliage13",
+      "position": [
+        1095.87,
+        862.91
+      ]
+    },
+    {
+      "node": "MeadowGrass057",
+      "sprite": "foliage18",
+      "position": [
+        686.72,
+        519.26
+      ]
+    },
+    {
+      "node": "MeadowGrass058",
+      "sprite": "foliage18",
+      "position": [
+        913.13,
+        800.36
+      ]
+    },
+    {
+      "node": "MeadowGrass059",
+      "sprite": "foliage17",
+      "position": [
+        719.46,
+        274.64
+      ]
+    },
+    {
+      "node": "MeadowGrass060",
+      "sprite": "foliage2",
+      "position": [
+        415.48,
+        609.86
+      ]
+    },
+    {
+      "node": "MeadowGrass061",
+      "sprite": "foliage1",
+      "position": [
+        177.9,
+        654.76
+      ]
+    },
+    {
+      "node": "MeadowGrass062",
+      "sprite": "foliage6",
+      "position": [
+        358.48,
+        696.48
+      ]
+    },
+    {
+      "node": "MeadowGrass063",
+      "sprite": "foliage1",
+      "position": [
+        778.49,
+        583.07
+      ]
+    },
+    {
+      "node": "MeadowGrass064",
+      "sprite": "foliage6",
+      "position": [
+        513.57,
+        472.27
+      ]
+    },
+    {
+      "node": "MeadowGrass065",
+      "sprite": "foliage11",
+      "position": [
+        903.82,
+        829.9
+      ]
+    },
+    {
+      "node": "MeadowGrass066",
+      "sprite": "foliage18",
+      "position": [
+        974.64,
+        386.67
+      ]
+    },
+    {
+      "node": "MeadowGrass067",
+      "sprite": "foliage7",
+      "position": [
+        943.16,
+        367.85
+      ]
+    },
+    {
+      "node": "MeadowGrass068",
+      "sprite": "foliage11",
+      "position": [
+        215.72,
+        453.91
+      ]
+    },
+    {
+      "node": "MeadowGrass069",
+      "sprite": "foliage13",
+      "position": [
+        1085.28,
+        229.48
+      ]
+    },
+    {
+      "node": "MeadowGrass070",
+      "sprite": "foliage11",
+      "position": [
+        92.92,
+        339.07
+      ]
+    },
+    {
+      "node": "MeadowGrass071",
+      "sprite": "foliage18",
+      "position": [
+        540.28,
+        829.5
+      ]
+    },
+    {
+      "node": "MeadowGrass072",
+      "sprite": "foliage8",
+      "position": [
+        954.5,
+        491.68
+      ]
+    },
+    {
+      "node": "MeadowGrass073",
+      "sprite": "foliage6",
+      "position": [
+        815.51,
+        560.59
+      ]
+    },
+    {
+      "node": "MeadowGrass074",
+      "sprite": "foliage13",
+      "position": [
+        557.48,
+        467.02
+      ]
+    },
+    {
+      "node": "MeadowGrass075",
+      "sprite": "foliage6",
+      "position": [
+        992.11,
+        778.98
+      ]
+    },
+    {
+      "node": "MeadowGrass076",
+      "sprite": "foliage7",
+      "position": [
+        206.12,
+        212.66
+      ]
+    },
+    {
+      "node": "MeadowGrass077",
+      "sprite": "foliage14",
+      "position": [
+        879.25,
+        296.95
+      ]
+    },
+    {
+      "node": "MeadowGrass078",
+      "sprite": "foliage7",
+      "position": [
+        1116.55,
+        702.98
+      ]
+    },
+    {
+      "node": "MeadowGrass079",
+      "sprite": "foliage18",
+      "position": [
+        691.16,
+        232.65
+      ]
+    },
+    {
+      "node": "MeadowGrass080",
+      "sprite": "foliage17",
+      "position": [
+        730.58,
+        174.29
+      ]
+    },
+    {
+      "node": "MeadowGrass081",
+      "sprite": "foliage14",
+      "position": [
+        251.27,
+        742.85
+      ]
+    },
+    {
+      "node": "MeadowGrass082",
+      "sprite": "foliage18",
+      "position": [
+        877.84,
+        795.35
+      ]
+    },
+    {
+      "node": "MeadowGrass083",
+      "sprite": "foliage5",
+      "position": [
+        654.4,
+        801.58
+      ]
+    },
+    {
+      "node": "MeadowGrass084",
+      "sprite": "foliage14",
+      "position": [
+        814.81,
+        325.04
+      ]
+    },
+    {
+      "node": "MeadowGrass085",
+      "sprite": "foliage7",
+      "position": [
+        257.36,
+        554.87
+      ]
+    },
+    {
+      "node": "MeadowGrass086",
+      "sprite": "foliage1",
+      "position": [
+        107.0,
+        520.93
+      ]
+    },
+    {
+      "node": "MeadowGrass087",
+      "sprite": "foliage14",
+      "position": [
+        782.54,
+        47.99
+      ]
+    },
+    {
+      "node": "MeadowGrass088",
+      "sprite": "foliage12",
+      "position": [
+        1146.64,
+        301.67
+      ]
+    },
+    {
+      "node": "MeadowGrass089",
+      "sprite": "foliage8",
+      "position": [
+        978.68,
+        597.19
+      ]
+    },
+    {
+      "node": "MeadowGrass090",
+      "sprite": "foliage1",
+      "position": [
+        205.84,
+        354.32
+      ]
+    },
+    {
+      "node": "MeadowGrass091",
+      "sprite": "foliage7",
+      "position": [
+        932.22,
+        591.49
+      ]
+    },
+    {
+      "node": "MeadowGrass092",
+      "sprite": "foliage11",
+      "position": [
+        880.86,
+        257.99
+      ]
+    },
+    {
+      "node": "MeadowGrass093",
+      "sprite": "foliage14",
+      "position": [
+        1031.57,
+        873.37
+      ]
+    },
+    {
+      "node": "MeadowGrass094",
+      "sprite": "foliage1",
+      "position": [
+        344.74,
+        332.07
+      ]
+    },
+    {
+      "node": "MeadowGrass095",
+      "sprite": "foliage11",
+      "position": [
+        266.95,
+        451.45
+      ]
+    },
+    {
+      "node": "MeadowGrass096",
+      "sprite": "foliage7",
+      "position": [
+        805.66,
+        177.12
+      ]
+    },
+    {
+      "node": "MeadowGrass097",
+      "sprite": "foliage18",
+      "position": [
+        936.28,
+        510.27
+      ]
+    },
+    {
+      "node": "MeadowGrass098",
+      "sprite": "foliage1",
+      "position": [
+        181.7,
+        733.1
+      ]
+    },
+    {
+      "node": "MeadowGrass099",
+      "sprite": "foliage7",
+      "position": [
+        863.37,
+        862.73
+      ]
+    },
+    {
+      "node": "MeadowGrass100",
+      "sprite": "foliage7",
+      "position": [
+        882.84,
+        820.92
+      ]
+    },
+    {
+      "node": "MeadowGrass101",
+      "sprite": "foliage18",
+      "position": [
+        914.82,
+        402.2
+      ]
+    },
+    {
+      "node": "MeadowGrass102",
+      "sprite": "foliage18",
+      "position": [
+        297.53,
+        634.76
+      ]
+    },
+    {
+      "node": "MeadowGrass103",
+      "sprite": "foliage17",
+      "position": [
+        659.67,
+        881.63
+      ]
+    },
+    {
+      "node": "MeadowGrass104",
+      "sprite": "foliage12",
+      "position": [
+        930.42,
+        233.05
+      ]
+    },
+    {
+      "node": "MeadowGrass105",
+      "sprite": "foliage6",
+      "position": [
+        20.15,
+        236.87
+      ]
+    },
+    {
+      "node": "MeadowGrass107",
+      "sprite": "foliage7",
+      "position": [
+        960.19,
+        612.25
+      ]
+    },
+    {
+      "node": "MeadowGrass108",
+      "sprite": "foliage13",
+      "position": [
+        855.39,
+        714.09
+      ]
+    },
+    {
+      "node": "MeadowGrass109",
+      "sprite": "foliage6",
+      "position": [
+        351.61,
+        534.51
+      ]
+    },
+    {
+      "node": "MeadowGrass110",
+      "sprite": "foliage6",
+      "position": [
+        849.87,
+        785.9
+      ]
+    },
+    {
+      "node": "MeadowGrass111",
+      "sprite": "foliage8",
+      "position": [
+        828.39,
+        353.87
+      ]
+    },
+    {
+      "node": "MeadowGrass112",
+      "sprite": "foliage1",
+      "position": [
+        1153.5,
+        352.7
+      ]
+    },
+    {
+      "node": "MeadowGrass113",
+      "sprite": "foliage17",
+      "position": [
+        853.52,
+        843.93
+      ]
+    },
+    {
+      "node": "MeadowGrass114",
+      "sprite": "foliage1",
+      "position": [
+        942.47,
+        72.31
+      ]
+    },
+    {
+      "node": "MeadowGrass115",
+      "sprite": "foliage12",
+      "position": [
+        517.88,
+        127.58
+      ]
+    },
+    {
+      "node": "MeadowGrass116",
+      "sprite": "foliage1",
+      "position": [
+        257.9,
+        611.37
+      ]
+    },
+    {
+      "node": "MeadowGrass117",
+      "sprite": "foliage17",
+      "position": [
+        754.41,
+        296.52
+      ]
+    },
+    {
+      "node": "MeadowGrass118",
+      "sprite": "foliage11",
+      "position": [
+        152.27,
+        717.72
+      ]
+    },
+    {
+      "node": "MeadowGrass119",
+      "sprite": "foliage18",
+      "position": [
+        954.57,
+        804.7
+      ]
+    },
+    {
+      "node": "MeadowGrass120",
+      "sprite": "foliage18",
+      "position": [
+        558.79,
+        298.51
+      ]
+    },
+    {
+      "node": "MeadowGrass121",
+      "sprite": "foliage18",
+      "position": [
+        424.46,
+        572.5
+      ]
+    },
+    {
+      "node": "MeadowGrass122",
+      "sprite": "foliage13",
+      "position": [
+        366.42,
+        604.41
+      ]
+    },
+    {
+      "node": "MeadowGrass123",
+      "sprite": "foliage18",
+      "position": [
+        654.54,
+        817.72
+      ]
+    },
+    {
+      "node": "MeadowGrass124",
+      "sprite": "foliage18",
+      "position": [
+        325.1,
+        665.66
+      ]
+    },
+    {
+      "node": "MeadowGrass125",
+      "sprite": "foliage14",
+      "position": [
+        391.72,
+        537.67
+      ]
+    },
+    {
+      "node": "MeadowGrass126",
+      "sprite": "foliage17",
+      "position": [
+        523.18,
+        168.0
+      ]
+    },
+    {
+      "node": "MeadowGrass127",
+      "sprite": "foliage8",
+      "position": [
+        948.89,
+        757.46
+      ]
+    },
+    {
+      "node": "MeadowGrass128",
+      "sprite": "foliage5",
+      "position": [
+        884.33,
+        242.39
+      ]
+    },
+    {
+      "node": "MeadowGrass129",
+      "sprite": "foliage7",
+      "position": [
+        1180.51,
+        403.96
+      ]
+    },
+    {
+      "node": "MeadowGrass130",
+      "sprite": "foliage1",
+      "position": [
+        415.66,
+        444.55
+      ]
+    },
+    {
+      "node": "MeadowGrass131",
+      "sprite": "foliage11",
+      "position": [
+        468.81,
+        575.47
+      ]
+    },
+    {
+      "node": "MeadowGrass132",
+      "sprite": "foliage7",
+      "position": [
+        413.8,
+        471.53
+      ]
+    },
+    {
+      "node": "MeadowGrass133",
+      "sprite": "foliage13",
+      "position": [
+        1073.94,
+        735.21
+      ]
+    },
+    {
+      "node": "MeadowGrass134",
+      "sprite": "foliage18",
+      "position": [
+        515.04,
+        587.35
+      ]
+    },
+    {
+      "node": "MeadowGrass135",
+      "sprite": "foliage2",
+      "position": [
+        561.6,
+        822.58
+      ]
+    },
+    {
+      "node": "MeadowGrass136",
+      "sprite": "foliage1",
+      "position": [
+        1137.33,
+        818.64
+      ]
+    },
+    {
+      "node": "MeadowGrass137",
+      "sprite": "foliage7",
+      "position": [
+        1160.92,
+        816.43
+      ]
+    },
+    {
+      "node": "MeadowGrass138",
+      "sprite": "foliage14",
+      "position": [
+        156.04,
+        189.06
+      ]
+    },
+    {
+      "node": "MeadowGrass139",
+      "sprite": "foliage14",
+      "position": [
+        830.62,
+        211.06
+      ]
+    },
+    {
+      "node": "MeadowGrass140",
+      "sprite": "foliage14",
+      "position": [
+        885.24,
+        575.59
+      ]
+    },
+    {
+      "node": "MeadowGrass141",
+      "sprite": "foliage17",
+      "position": [
+        1004.69,
+        885.75
+      ]
+    },
+    {
+      "node": "MeadowGrass142",
+      "sprite": "foliage6",
+      "position": [
+        844.15,
+        621.48
+      ]
+    },
+    {
+      "node": "MeadowGrass143",
+      "sprite": "foliage2",
+      "position": [
+        165.69,
+        422.58
+      ]
+    },
+    {
+      "node": "MeadowGrass144",
+      "sprite": "foliage8",
+      "position": [
+        943.47,
+        726.9
+      ]
+    },
+    {
+      "node": "MeadowGrass145",
+      "sprite": "foliage13",
+      "position": [
+        1161.26,
+        587.45
+      ]
+    },
+    {
+      "node": "MeadowGrass146",
+      "sprite": "foliage2",
+      "position": [
+        1065.26,
+        70.37
+      ]
+    },
+    {
+      "node": "MeadowGrass147",
+      "sprite": "foliage5",
+      "position": [
+        642.1,
+        879.64
+      ]
+    },
+    {
+      "node": "MeadowGrass148",
+      "sprite": "foliage6",
+      "position": [
+        1060.07,
+        154.08
+      ]
+    },
+    {
+      "node": "MeadowGrass149",
+      "sprite": "foliage13",
+      "position": [
+        380.91,
+        167.09
+      ]
+    },
+    {
+      "node": "MeadowGrass150",
+      "sprite": "foliage18",
+      "position": [
+        1168.84,
+        373.72
+      ]
+    },
+    {
+      "node": "MeadowGrass151",
+      "sprite": "foliage1",
+      "position": [
+        992.36,
+        187.23
+      ]
+    },
+    {
+      "node": "MeadowGrass152",
+      "sprite": "foliage6",
+      "position": [
+        954.73,
+        380.76
+      ]
+    },
+    {
+      "node": "MeadowGrass153",
+      "sprite": "foliage6",
+      "position": [
+        960.84,
+        296.31
+      ]
+    },
+    {
+      "node": "MeadowGrass154",
+      "sprite": "foliage18",
+      "position": [
+        892.61,
+        308.19
+      ]
+    },
+    {
+      "node": "MeadowGrass155",
+      "sprite": "foliage7",
+      "position": [
+        394.6,
+        628.17
+      ]
+    },
+    {
+      "node": "MeadowGrass156",
+      "sprite": "foliage6",
+      "position": [
+        538.17,
+        713.1
+      ]
+    },
+    {
+      "node": "MeadowGrass157",
+      "sprite": "foliage6",
+      "position": [
+        312.77,
+        598.47
+      ]
+    },
+    {
+      "node": "MeadowGrass158",
+      "sprite": "foliage5",
+      "position": [
+        276.75,
+        411.29
+      ]
+    },
+    {
+      "node": "MeadowGrass159",
+      "sprite": "foliage7",
+      "position": [
+        585.29,
+        702.52
+      ]
+    },
+    {
+      "node": "MeadowGrass160",
+      "sprite": "foliage17",
+      "position": [
+        269.03,
+        326.76
+      ]
+    },
+    {
+      "node": "MeadowGrass161",
+      "sprite": "foliage7",
+      "position": [
+        853.18,
+        41.52
+      ]
+    },
+    {
+      "node": "MeadowGrass162",
+      "sprite": "foliage1",
+      "position": [
+        175.43,
+        378.53
+      ]
+    },
+    {
+      "node": "MeadowGrass163",
+      "sprite": "foliage8",
+      "position": [
+        129.02,
+        718.73
+      ]
+    },
+    {
+      "node": "MeadowGrass164",
+      "sprite": "foliage6",
+      "position": [
+        464.24,
+        673.44
+      ]
+    },
+    {
+      "node": "MeadowGrass165",
+      "sprite": "foliage8",
+      "position": [
+        923.67,
+        369.39
+      ]
+    },
+    {
+      "node": "MeadowGrass166",
+      "sprite": "foliage7",
+      "position": [
+        991.53,
+        861.78
+      ]
+    },
+    {
+      "node": "MeadowGrass167",
+      "sprite": "foliage11",
+      "position": [
+        946.85,
+        453.26
+      ]
+    },
+    {
+      "node": "MeadowGrass168",
+      "sprite": "foliage6",
+      "position": [
+        275.46,
+        427.1
+      ]
+    },
+    {
+      "node": "MeadowGrass169",
+      "sprite": "foliage12",
+      "position": [
+        442.96,
+        838.7
+      ]
+    },
+    {
+      "node": "MeadowGrass170",
+      "sprite": "foliage6",
+      "position": [
+        281.36,
+        181.12
+      ]
+    },
+    {
+      "node": "MeadowGrass171",
+      "sprite": "foliage11",
+      "position": [
+        819.19,
+        64.84
+      ]
+    },
+    {
+      "node": "MeadowGrass172",
+      "sprite": "foliage1",
+      "position": [
+        933.61,
+        552.2
+      ]
+    },
+    {
+      "node": "MeadowGrass173",
+      "sprite": "foliage13",
+      "position": [
+        885.93,
+        153.0
+      ]
+    },
+    {
+      "node": "MeadowGrass174",
+      "sprite": "foliage6",
+      "position": [
+        546.75,
+        283.76
+      ]
+    },
+    {
+      "node": "MeadowGrass175",
+      "sprite": "foliage8",
+      "position": [
+        610.48,
+        88.9
+      ]
+    },
+    {
+      "node": "MeadowGrass176",
+      "sprite": "foliage12",
+      "position": [
+        185.73,
+        215.85
+      ]
+    },
+    {
+      "node": "MeadowGrass177",
+      "sprite": "foliage11",
+      "position": [
+        952.96,
+        163.12
+      ]
+    },
+    {
+      "node": "MeadowGrass178",
+      "sprite": "foliage11",
+      "position": [
+        645.1,
+        708.29
+      ]
+    },
+    {
+      "node": "MeadowGrass179",
+      "sprite": "foliage2",
+      "position": [
+        730.49,
+        789.04
+      ]
+    },
+    {
+      "node": "MeadowGrass180",
+      "sprite": "foliage2",
+      "position": [
+        527.54,
+        495.31
+      ]
+    },
+    {
+      "node": "MeadowGrass181",
+      "sprite": "foliage6",
+      "position": [
+        849.78,
+        366.77
+      ]
+    },
+    {
+      "node": "MeadowGrass182",
+      "sprite": "foliage14",
+      "position": [
+        668.57,
+        324.99
+      ]
+    },
+    {
+      "node": "MeadowGrass183",
+      "sprite": "foliage6",
+      "position": [
+        1079.65,
+        820.51
+      ]
+    },
+    {
+      "node": "MeadowGrass184",
+      "sprite": "foliage8",
+      "position": [
+        1173.26,
+        739.31
+      ]
+    },
+    {
+      "node": "MeadowGrass185",
+      "sprite": "foliage2",
+      "position": [
+        237.78,
+        520.86
+      ]
+    },
+    {
+      "node": "MeadowGrass186",
+      "sprite": "foliage8",
+      "position": [
+        915.88,
+        446.26
+      ]
+    },
+    {
+      "node": "MeadowGrass187",
+      "sprite": "foliage8",
+      "position": [
+        1014.87,
+        386.05
+      ]
+    },
+    {
+      "node": "MeadowGrass188",
+      "sprite": "foliage6",
+      "position": [
+        12.98,
+        348.09
+      ]
+    },
+    {
+      "node": "MeadowGrass189",
+      "sprite": "foliage18",
+      "position": [
+        655.53,
+        835.25
+      ]
+    },
+    {
+      "node": "MeadowGrass190",
+      "sprite": "foliage14",
+      "position": [
+        985.9,
+        409.02
+      ]
+    },
+    {
+      "node": "MeadowGrass191",
+      "sprite": "foliage2",
+      "position": [
+        300.79,
+        357.89
+      ]
+    },
+    {
+      "node": "MeadowGrass192",
+      "sprite": "foliage8",
+      "position": [
+        477.12,
+        857.12
+      ]
+    },
+    {
+      "node": "MeadowGrass193",
+      "sprite": "foliage1",
+      "position": [
+        640.34,
+        688.43
+      ]
+    },
+    {
+      "node": "MeadowGrass194",
+      "sprite": "foliage1",
+      "position": [
+        969.93,
+        538.45
+      ]
+    },
+    {
+      "node": "MeadowGrass195",
+      "sprite": "foliage6",
+      "position": [
+        164.37,
+        448.25
+      ]
+    },
+    {
+      "node": "MeadowGrass196",
+      "sprite": "foliage2",
+      "position": [
+        884.73,
+        130.12
+      ]
+    },
+    {
+      "node": "MeadowGrass197",
+      "sprite": "foliage14",
+      "position": [
+        509.74,
+        375.16
+      ]
+    },
+    {
+      "node": "MeadowGrass198",
+      "sprite": "foliage11",
+      "position": [
+        1030.5,
+        556.93
+      ]
+    },
+    {
+      "node": "MeadowGrass199",
+      "sprite": "foliage2",
+      "position": [
+        879.93,
+        724.52
+      ]
+    },
+    {
+      "node": "MeadowGrass200",
+      "sprite": "foliage2",
+      "position": [
+        310.73,
+        836.64
+      ]
+    },
+    {
+      "node": "MeadowGrass201",
+      "sprite": "foliage13",
+      "position": [
+        470.05,
+        431.57
+      ]
+    },
+    {
+      "node": "MeadowGrass202",
+      "sprite": "foliage5",
+      "position": [
+        462.22,
+        476.23
+      ]
+    },
+    {
+      "node": "MeadowGrass203",
+      "sprite": "foliage1",
+      "position": [
+        94.6,
+        208.09
+      ]
+    },
+    {
+      "node": "MeadowGrass204",
+      "sprite": "foliage14",
+      "position": [
+        1131.0,
+        476.51
+      ]
+    },
+    {
+      "node": "MeadowGrass205",
+      "sprite": "foliage5",
+      "position": [
+        762.09,
+        739.37
+      ]
+    },
+    {
+      "node": "MeadowGrass206",
+      "sprite": "foliage6",
+      "position": [
+        744.05,
+        283.34
+      ]
+    },
+    {
+      "node": "MeadowGrass207",
+      "sprite": "foliage18",
+      "position": [
+        1030.92,
+        716.55
+      ]
+    },
+    {
+      "node": "MeadowGrass208",
+      "sprite": "foliage17",
+      "position": [
+        43.75,
+        398.62
+      ]
+    },
+    {
+      "node": "MeadowGrass209",
+      "sprite": "foliage12",
+      "position": [
+        67.27,
+        820.48
+      ]
+    },
+    {
+      "node": "MeadowGrass210",
+      "sprite": "foliage18",
+      "position": [
+        674.02,
+        829.36
+      ]
+    },
+    {
+      "node": "MeadowGrass211",
+      "sprite": "foliage2",
+      "position": [
+        964.53,
+        417.29
+      ]
+    },
+    {
+      "node": "MeadowGrass212",
+      "sprite": "foliage7",
+      "position": [
+        550.03,
+        137.8
+      ]
+    },
+    {
+      "node": "MeadowGrass213",
+      "sprite": "foliage8",
+      "position": [
+        93.55,
+        102.75
+      ]
+    },
+    {
+      "node": "MeadowGrass214",
+      "sprite": "foliage11",
+      "position": [
+        1014.46,
+        452.74
+      ]
+    },
+    {
+      "node": "MeadowGrass215",
+      "sprite": "foliage1",
+      "position": [
+        890.37,
+        683.84
+      ]
+    },
+    {
+      "node": "MeadowGrass216",
+      "sprite": "foliage14",
+      "position": [
+        1109.43,
+        56.84
+      ]
+    },
+    {
+      "node": "MeadowGrass217",
+      "sprite": "foliage1",
+      "position": [
+        48.85,
+        207.09
+      ]
+    },
+    {
+      "node": "MeadowGrass218",
+      "sprite": "foliage1",
+      "position": [
+        1162.59,
+        197.43
+      ]
+    },
+    {
+      "node": "MeadowGrass219",
+      "sprite": "foliage8",
+      "position": [
+        1068.51,
+        854.21
+      ]
+    },
+    {
+      "node": "MeadowGrass220",
+      "sprite": "foliage2",
+      "position": [
+        565.16,
+        493.65
+      ]
+    },
+    {
+      "node": "MeadowGrass221",
+      "sprite": "foliage2",
+      "position": [
+        28.4,
+        142.06
+      ]
+    },
+    {
+      "node": "MeadowGrass222",
+      "sprite": "foliage18",
+      "position": [
+        143.23,
+        122.04
+      ]
+    },
+    {
+      "node": "MeadowGrass223",
+      "sprite": "foliage2",
+      "position": [
+        335.32,
+        515.69
+      ]
+    },
+    {
+      "node": "MeadowGrass224",
+      "sprite": "foliage17",
+      "position": [
+        1057.02,
+        640.19
+      ]
+    },
+    {
+      "node": "MeadowGrass225",
+      "sprite": "foliage8",
+      "position": [
+        703.86,
+        561.27
+      ]
+    },
+    {
+      "node": "MeadowGrass226",
+      "sprite": "foliage11",
+      "position": [
+        635.24,
+        40.0
+      ]
+    },
+    {
+      "node": "MeadowGrass227",
+      "sprite": "foliage11",
+      "position": [
+        1016.53,
+        419.03
+      ]
+    },
+    {
+      "node": "MeadowGrass228",
+      "sprite": "foliage6",
+      "position": [
+        489.56,
+        323.82
+      ]
+    },
+    {
+      "node": "MeadowGrass229",
+      "sprite": "foliage8",
+      "position": [
+        464.84,
+        260.55
+      ]
+    },
+    {
+      "node": "MeadowGrass230",
+      "sprite": "foliage18",
+      "position": [
+        1095.76,
+        546.09
+      ]
+    },
+    {
+      "node": "MeadowGrass231",
+      "sprite": "foliage7",
+      "position": [
+        504.7,
+        302.29
+      ]
+    },
+    {
+      "node": "MeadowGrass232",
+      "sprite": "foliage18",
+      "position": [
+        947.45,
+        184.47
+      ]
+    },
+    {
+      "node": "MeadowGrass233",
+      "sprite": "foliage18",
+      "position": [
+        1183.97,
+        510.97
+      ]
+    },
+    {
+      "node": "MeadowGrass234",
+      "sprite": "foliage18",
+      "position": [
+        423.28,
+        307.71
+      ]
+    },
+    {
+      "node": "MeadowGrass235",
+      "sprite": "foliage18",
+      "position": [
+        1032.45,
+        69.36
+      ]
+    },
+    {
+      "node": "MeadowGrass236",
+      "sprite": "foliage14",
+      "position": [
+        626.34,
+        598.29
+      ]
+    },
+    {
+      "node": "MeadowGrass237",
+      "sprite": "foliage14",
+      "position": [
+        894.7,
+        269.9
+      ]
+    },
+    {
+      "node": "MeadowGrass238",
+      "sprite": "foliage8",
+      "position": [
+        232.27,
+        417.52
+      ]
+    },
+    {
+      "node": "MeadowGrass239",
+      "sprite": "foliage17",
+      "position": [
+        1030.96,
+        774.24
+      ]
+    },
+    {
+      "node": "MeadowGrass240",
+      "sprite": "foliage5",
+      "position": [
+        850.51,
+        153.86
+      ]
+    },
+    {
+      "node": "MeadowGrass241",
+      "sprite": "foliage17",
+      "position": [
+        890.51,
+        40.05
+      ]
+    },
+    {
+      "node": "MeadowGrass242",
+      "sprite": "foliage14",
+      "position": [
+        676.62,
+        723.88
+      ]
+    },
+    {
+      "node": "MeadowGrass243",
+      "sprite": "foliage13",
+      "position": [
+        1119.56,
+        284.17
+      ]
+    },
+    {
+      "node": "MeadowGrass244",
+      "sprite": "foliage2",
+      "position": [
+        445.96,
+        500.48
+      ]
+    },
+    {
+      "node": "MeadowGrass245",
+      "sprite": "foliage1",
+      "position": [
+        581.27,
+        175.72
+      ]
+    },
+    {
+      "node": "MeadowGrass246",
+      "sprite": "foliage7",
+      "position": [
+        174.42,
+        882.7
+      ]
+    },
+    {
+      "node": "MeadowGrass247",
+      "sprite": "foliage6",
+      "position": [
+        522.77,
+        190.75
+      ]
+    },
+    {
+      "node": "MeadowGrass248",
+      "sprite": "foliage18",
+      "position": [
+        918.19,
+        843.18
+      ]
+    },
+    {
+      "node": "MeadowGrass249",
+      "sprite": "foliage7",
+      "position": [
+        78.42,
+        836.0
+      ]
+    },
+    {
+      "node": "MeadowGrass250",
+      "sprite": "foliage18",
+      "position": [
+        396.9,
+        358.57
+      ]
+    },
+    {
+      "node": "MeadowGrass251",
+      "sprite": "foliage2",
+      "position": [
+        302.88,
+        700.06
+      ]
+    },
+    {
+      "node": "MeadowGrass252",
+      "sprite": "foliage8",
+      "position": [
+        309.32,
+        145.9
+      ]
+    },
+    {
+      "node": "MeadowGrass253",
+      "sprite": "foliage18",
+      "position": [
+        1046.76,
+        568.51
+      ]
+    },
+    {
+      "node": "MeadowGrass254",
+      "sprite": "foliage8",
+      "position": [
+        328.26,
+        317.37
+      ]
+    },
+    {
+      "node": "MeadowGrass255",
+      "sprite": "foliage6",
+      "position": [
+        1008.98,
+        497.03
+      ]
+    },
+    {
+      "node": "MeadowGrass256",
+      "sprite": "foliage11",
+      "position": [
+        968.6,
+        706.68
+      ]
+    },
+    {
+      "node": "MeadowGrass257",
+      "sprite": "foliage12",
+      "position": [
+        499.68,
+        235.31
+      ]
+    },
+    {
+      "node": "MeadowGrass258",
+      "sprite": "foliage11",
+      "position": [
+        545.65,
+        861.08
+      ]
+    },
+    {
+      "node": "MeadowGrass259",
+      "sprite": "foliage6",
+      "position": [
+        162.14,
+        618.16
+      ]
+    },
+    {
+      "node": "MeadowGrass260",
+      "sprite": "foliage12",
+      "position": [
+        875.26,
+        184.62
+      ]
+    },
+    {
+      "node": "MeadowGrass261",
+      "sprite": "foliage1",
+      "position": [
+        61.41,
+        321.24
+      ]
+    },
+    {
+      "node": "MeadowGrass262",
+      "sprite": "foliage1",
+      "position": [
+        169.25,
+        363.22
+      ]
+    },
+    {
+      "node": "MeadowGrass263",
+      "sprite": "foliage12",
+      "position": [
+        898.59,
+        173.28
+      ]
+    },
+    {
+      "node": "MeadowGrass264",
+      "sprite": "foliage14",
+      "position": [
+        422.83,
+        544.2
+      ]
+    },
+    {
+      "node": "MeadowGrass265",
+      "sprite": "foliage14",
+      "position": [
+        761.43,
+        377.05
+      ]
+    },
+    {
+      "node": "MeadowGrass266",
+      "sprite": "foliage2",
+      "position": [
+        497.04,
+        453.55
+      ]
+    },
+    {
+      "node": "MeadowGrass267",
+      "sprite": "foliage11",
+      "position": [
+        255.15,
+        591.25
+      ]
+    },
+    {
+      "node": "MeadowGrass268",
+      "sprite": "foliage18",
+      "position": [
+        722.42,
+        254.73
+      ]
+    },
+    {
+      "node": "MeadowGrass269",
+      "sprite": "foliage7",
+      "position": [
+        699.59,
+        340.46
+      ]
+    },
+    {
+      "node": "MeadowGrass270",
+      "sprite": "foliage14",
+      "position": [
+        874.4,
+        698.84
+      ]
+    },
+    {
+      "node": "MeadowGrass271",
+      "sprite": "foliage12",
+      "position": [
+        896.88,
+        473.11
+      ]
+    },
+    {
+      "node": "MeadowGrass272",
+      "sprite": "foliage5",
+      "position": [
+        797.92,
+        315.0
+      ]
+    },
+    {
+      "node": "MeadowGrass273",
+      "sprite": "foliage5",
+      "position": [
+        1042.23,
+        417.97
+      ]
+    },
+    {
+      "node": "MeadowGrass274",
+      "sprite": "foliage11",
+      "position": [
+        648.45,
+        567.15
+      ]
+    },
+    {
+      "node": "MeadowGrass275",
+      "sprite": "foliage2",
+      "position": [
+        660.79,
+        780.54
+      ]
+    },
+    {
+      "node": "MeadowGrass276",
+      "sprite": "foliage11",
+      "position": [
+        30.81,
+        838.29
+      ]
+    },
+    {
+      "node": "MeadowGrass277",
+      "sprite": "foliage14",
+      "position": [
+        169.23,
+        403.81
+      ]
+    },
+    {
+      "node": "MeadowGrass278",
+      "sprite": "foliage12",
+      "position": [
+        1095.05,
+        824.08
+      ]
+    },
+    {
+      "node": "MeadowGrass279",
+      "sprite": "foliage6",
+      "position": [
+        976.89,
+        872.45
+      ]
+    },
+    {
+      "node": "MeadowGrass280",
+      "sprite": "foliage17",
+      "position": [
+        252.09,
+        257.04
+      ]
+    },
+    {
+      "node": "MeadowGrass281",
+      "sprite": "foliage11",
+      "position": [
+        181.6,
+        38.07
+      ]
+    },
+    {
+      "node": "MeadowGrass282",
+      "sprite": "foliage14",
+      "position": [
+        1074.32,
+        180.0
+      ]
+    },
+    {
+      "node": "MeadowGrass283",
+      "sprite": "foliage11",
+      "position": [
+        80.13,
+        471.82
+      ]
+    },
+    {
+      "node": "MeadowGrass284",
+      "sprite": "foliage18",
+      "position": [
+        479.7,
+        830.07
+      ]
+    },
+    {
+      "node": "MeadowGrass285",
+      "sprite": "foliage5",
+      "position": [
+        173.19,
+        498.14
+      ]
+    },
+    {
+      "node": "MeadowGrass286",
+      "sprite": "foliage1",
+      "position": [
+        1169.29,
+        353.29
+      ]
+    },
+    {
+      "node": "MeadowGrass287",
+      "sprite": "foliage12",
+      "position": [
+        34.33,
+        882.39
+      ]
+    },
+    {
+      "node": "MeadowGrass288",
+      "sprite": "foliage5",
+      "position": [
+        781.18,
+        865.09
+      ]
+    },
+    {
+      "node": "MeadowGrass289",
+      "sprite": "foliage18",
+      "position": [
+        653.38,
+        167.06
+      ]
+    },
+    {
+      "node": "MeadowGrass290",
+      "sprite": "foliage5",
+      "position": [
+        188.06,
+        760.78
+      ]
+    },
+    {
+      "node": "MeadowGrass291",
+      "sprite": "foliage2",
+      "position": [
+        484.08,
+        270.51
+      ]
+    },
+    {
+      "node": "MeadowGrass292",
+      "sprite": "foliage18",
+      "position": [
+        245.12,
+        172.03
+      ]
+    },
+    {
+      "node": "MeadowGrass293",
+      "sprite": "foliage1",
+      "position": [
+        524.45,
+        318.13
+      ]
+    },
+    {
+      "node": "MeadowGrass294",
+      "sprite": "foliage17",
+      "position": [
+        1078.19,
+        555.55
+      ]
+    },
+    {
+      "node": "MeadowGrass295",
+      "sprite": "foliage8",
+      "position": [
+        645.7,
+        603.96
+      ]
+    },
+    {
+      "node": "MeadowGrass296",
+      "sprite": "foliage6",
+      "position": [
+        794.65,
+        666.01
+      ]
+    },
+    {
+      "node": "MeadowGrass297",
+      "sprite": "foliage17",
+      "position": [
+        421.09,
+        251.65
+      ]
+    },
+    {
+      "node": "MeadowGrass298",
+      "sprite": "foliage6",
+      "position": [
+        865.81,
+        212.2
+      ]
+    },
+    {
+      "node": "MeadowGrass299",
+      "sprite": "foliage13",
+      "position": [
+        471.85,
+        304.57
+      ]
+    },
+    {
+      "node": "MeadowGrass300",
+      "sprite": "foliage17",
+      "position": [
+        90.51,
+        174.32
+      ]
+    },
+    {
+      "node": "MeadowGrass301",
+      "sprite": "foliage12",
+      "position": [
+        12.55,
+        184.39
+      ]
+    },
+    {
+      "node": "MeadowGrass302",
+      "sprite": "foliage14",
+      "position": [
+        988.63,
+        441.0
+      ]
+    },
+    {
+      "node": "MeadowGrass303",
+      "sprite": "foliage13",
+      "position": [
+        652.14,
+        674.2
+      ]
+    },
+    {
+      "node": "MeadowGrass304",
+      "sprite": "foliage18",
+      "position": [
+        242.58,
+        854.23
+      ]
+    },
+    {
+      "node": "MeadowGrass305",
+      "sprite": "foliage1",
+      "position": [
+        696.37,
+        653.18
+      ]
+    },
+    {
+      "node": "MeadowGrass306",
+      "sprite": "foliage14",
+      "position": [
+        213.18,
+        700.64
+      ]
+    },
+    {
+      "node": "MeadowGrass307",
+      "sprite": "foliage17",
+      "position": [
+        890.33,
+        207.56
+      ]
+    },
+    {
+      "node": "MeadowGrass308",
+      "sprite": "foliage5",
+      "position": [
+        755.06,
+        684.52
+      ]
+    },
+    {
+      "node": "MeadowGrass309",
+      "sprite": "foliage5",
+      "position": [
+        610.92,
+        232.78
+      ]
+    },
+    {
+      "node": "MeadowGrass310",
+      "sprite": "foliage14",
+      "position": [
+        527.19,
+        423.59
+      ]
+    },
+    {
+      "node": "MeadowGrass311",
+      "sprite": "foliage5",
+      "position": [
+        905.47,
+        225.56
+      ]
+    },
+    {
+      "node": "MeadowGrass312",
+      "sprite": "foliage14",
+      "position": [
+        295.43,
+        21.51
+      ]
+    },
+    {
+      "node": "MeadowGrass313",
+      "sprite": "foliage2",
+      "position": [
+        283.52,
+        772.33
+      ]
+    },
+    {
+      "node": "MeadowGrass314",
+      "sprite": "foliage1",
+      "position": [
+        183.4,
+        80.25
+      ]
+    },
+    {
+      "node": "MeadowGrass315",
+      "sprite": "foliage11",
+      "position": [
+        436.26,
+        296.97
+      ]
+    },
+    {
+      "node": "MeadowGrass316",
+      "sprite": "foliage12",
+      "position": [
+        595.86,
+        718.24
+      ]
+    },
+    {
+      "node": "MeadowGrass317",
+      "sprite": "foliage12",
+      "position": [
+        979.0,
+        518.71
+      ]
+    },
+    {
+      "node": "MeadowGrass318",
+      "sprite": "foliage8",
+      "position": [
+        96.68,
+        242.29
+      ]
+    },
+    {
+      "node": "MeadowGrass319",
+      "sprite": "foliage2",
+      "position": [
+        57.69,
+        279.75
+      ]
+    },
+    {
+      "node": "MeadowGrass320",
+      "sprite": "foliage18",
+      "position": [
+        212.51,
+        742.91
+      ]
+    },
+    {
+      "node": "MeadowGrass321",
+      "sprite": "foliage14",
+      "position": [
+        1104.14,
+        365.47
+      ]
+    },
+    {
+      "node": "MeadowGrass322",
+      "sprite": "foliage1",
+      "position": [
+        394.75,
+        698.51
+      ]
+    },
+    {
+      "node": "MeadowGrass323",
+      "sprite": "foliage17",
+      "position": [
+        506.79,
+        558.11
+      ]
+    },
+    {
+      "node": "MeadowGrass324",
+      "sprite": "foliage17",
+      "position": [
+        175.32,
+        749.94
+      ]
+    },
+    {
+      "node": "MeadowGrass325",
+      "sprite": "foliage14",
+      "position": [
+        433.77,
+        26.4
+      ]
+    },
+    {
+      "node": "MeadowGrass326",
+      "sprite": "foliage1",
+      "position": [
+        825.5,
+        184.1
+      ]
+    },
+    {
+      "node": "MeadowGrass327",
+      "sprite": "foliage13",
+      "position": [
+        835.02,
+        571.96
+      ]
+    },
+    {
+      "node": "MeadowGrass328",
+      "sprite": "foliage8",
+      "position": [
+        592.16,
+        242.17
+      ]
+    },
+    {
+      "node": "MeadowGrass329",
+      "sprite": "foliage17",
+      "position": [
+        1147.9,
+        793.49
+      ]
+    },
+    {
+      "node": "MeadowGrass330",
+      "sprite": "foliage13",
+      "position": [
+        304.84,
+        881.69
+      ]
+    },
+    {
+      "node": "MeadowGrass331",
+      "sprite": "foliage7",
+      "position": [
+        311.52,
+        38.95
+      ]
+    },
+    {
+      "node": "MeadowGrass332",
+      "sprite": "foliage12",
+      "position": [
+        620.0,
+        798.17
+      ]
+    },
+    {
+      "node": "MeadowGrass333",
+      "sprite": "foliage7",
+      "position": [
+        901.84,
+        756.99
+      ]
+    },
+    {
+      "node": "MeadowGrass334",
+      "sprite": "foliage17",
+      "position": [
+        332.77,
+        343.15
+      ]
+    },
+    {
+      "node": "MeadowGrass335",
+      "sprite": "foliage18",
+      "position": [
+        479.13,
+        192.68
+      ]
+    },
+    {
+      "node": "MeadowGrass336",
+      "sprite": "foliage18",
+      "position": [
+        45.61,
+        297.58
+      ]
+    },
+    {
+      "node": "MeadowGrass337",
+      "sprite": "foliage8",
+      "position": [
+        929.47,
+        735.65
+      ]
+    },
+    {
+      "node": "MeadowGrass338",
+      "sprite": "foliage13",
+      "position": [
+        689.76,
+        322.13
+      ]
+    },
+    {
+      "node": "MeadowGrass339",
+      "sprite": "foliage13",
+      "position": [
+        1185.3,
+        433.99
+      ]
+    },
+    {
+      "node": "MeadowGrass340",
+      "sprite": "foliage1",
+      "position": [
+        561.29,
+        874.21
+      ]
+    },
+    {
+      "node": "MeadowGrass341",
+      "sprite": "foliage12",
+      "position": [
+        543.64,
+        322.99
+      ]
+    },
+    {
+      "node": "MeadowGrass342",
+      "sprite": "foliage1",
+      "position": [
+        684.59,
+        868.22
+      ]
+    },
+    {
+      "node": "MeadowGrass343",
+      "sprite": "foliage17",
+      "position": [
+        567.68,
+        224.74
+      ]
+    },
+    {
+      "node": "MeadowGrass344",
+      "sprite": "foliage11",
+      "position": [
+        675.77,
+        768.55
+      ]
+    },
+    {
+      "node": "MeadowGrass345",
+      "sprite": "foliage14",
+      "position": [
+        974.73,
+        265.7
+      ]
+    },
+    {
+      "node": "MeadowGrass346",
+      "sprite": "foliage18",
+      "position": [
+        172.32,
+        268.31
+      ]
+    },
+    {
+      "node": "MeadowGrass347",
+      "sprite": "foliage5",
+      "position": [
+        1009.04,
+        662.43
+      ]
+    },
+    {
+      "node": "MeadowGrass348",
+      "sprite": "foliage18",
+      "position": [
+        1078.48,
+        700.26
+      ]
+    },
+    {
+      "node": "MeadowGrass349",
+      "sprite": "foliage17",
+      "position": [
+        248.82,
+        397.91
+      ]
+    },
+    {
+      "node": "MeadowGrass350",
+      "sprite": "foliage8",
+      "position": [
+        618.03,
+        721.48
+      ]
+    },
+    {
+      "node": "MeadowGrass351",
+      "sprite": "foliage6",
+      "position": [
+        127.14,
+        254.95
+      ]
+    },
+    {
+      "node": "MeadowGrass352",
+      "sprite": "foliage1",
+      "position": [
+        866.44,
+        28.4
+      ]
+    },
+    {
+      "node": "MeadowGrass353",
+      "sprite": "foliage17",
+      "position": [
+        981.4,
+        746.72
+      ]
+    },
+    {
+      "node": "MeadowGrass354",
+      "sprite": "foliage18",
+      "position": [
+        774.39,
+        252.08
+      ]
+    },
+    {
+      "node": "MeadowGrass355",
+      "sprite": "foliage14",
+      "position": [
+        1037.88,
+        175.42
+      ]
+    },
+    {
+      "node": "MeadowGrass356",
+      "sprite": "foliage12",
+      "position": [
+        146.85,
+        828.58
+      ]
+    },
+    {
+      "node": "MeadowGrass357",
+      "sprite": "foliage13",
+      "position": [
+        869.07,
+        404.56
+      ]
+    },
+    {
+      "node": "MeadowGrass358",
+      "sprite": "foliage12",
+      "position": [
+        966.53,
+        458.39
+      ]
+    },
+    {
+      "node": "MeadowGrass359",
+      "sprite": "foliage6",
+      "position": [
+        785.35,
+        443.43
+      ]
+    },
+    {
+      "node": "MeadowGrass360",
+      "sprite": "foliage2",
+      "position": [
+        139.67,
+        804.38
+      ]
+    },
+    {
+      "node": "MeadowGrass361",
+      "sprite": "foliage14",
+      "position": [
+        301.75,
+        683.45
+      ]
+    },
+    {
+      "node": "MeadowGrass362",
+      "sprite": "foliage7",
+      "position": [
+        105.05,
+        741.0
+      ]
+    },
+    {
+      "node": "MeadowGrass363",
+      "sprite": "foliage1",
+      "position": [
+        1031.15,
+        842.32
+      ]
+    },
+    {
+      "node": "MeadowGrass364",
+      "sprite": "foliage13",
+      "position": [
+        448.2,
+        333.74
+      ]
+    },
+    {
+      "node": "MeadowGrass365",
+      "sprite": "foliage1",
+      "position": [
+        489.34,
+        717.17
+      ]
+    },
+    {
+      "node": "MeadowGrass366",
+      "sprite": "foliage17",
+      "position": [
+        486.52,
+        243.86
+      ]
+    },
+    {
+      "node": "MeadowGrass367",
+      "sprite": "foliage8",
+      "position": [
+        668.04,
+        670.11
+      ]
+    },
+    {
+      "node": "MeadowGrass368",
+      "sprite": "foliage2",
+      "position": [
+        1021.11,
+        163.14
+      ]
+    },
+    {
+      "node": "MeadowGrass369",
+      "sprite": "foliage18",
+      "position": [
+        842.86,
+        602.72
+      ]
+    },
+    {
+      "node": "MeadowGrass370",
+      "sprite": "foliage1",
+      "position": [
+        698.86,
+        257.37
+      ]
+    },
+    {
+      "node": "MeadowGrass371",
+      "sprite": "foliage13",
+      "position": [
+        207.71,
+        762.13
+      ]
+    },
+    {
+      "node": "MeadowGrass372",
+      "sprite": "foliage13",
+      "position": [
+        333.26,
+        767.63
+      ]
+    },
+    {
+      "node": "MeadowGrass373",
+      "sprite": "foliage18",
+      "position": [
+        37.95,
+        85.54
+      ]
+    },
+    {
+      "node": "MeadowGrass374",
+      "sprite": "foliage8",
+      "position": [
+        973.99,
+        173.16
+      ]
+    },
+    {
+      "node": "MeadowGrass375",
+      "sprite": "foliage12",
+      "position": [
+        279.86,
+        153.04
+      ]
+    },
+    {
+      "node": "MeadowGrass376",
+      "sprite": "foliage6",
+      "position": [
+        781.62,
+        652.93
+      ]
+    },
+    {
+      "node": "MeadowGrass377",
+      "sprite": "foliage18",
+      "position": [
+        91.2,
+        694.8
+      ]
+    },
+    {
+      "node": "MeadowGrass378",
+      "sprite": "foliage13",
+      "position": [
+        577.24,
+        724.09
+      ]
+    },
+    {
+      "node": "MeadowGrass379",
+      "sprite": "foliage14",
+      "position": [
+        452.09,
+        649.5
+      ]
+    },
+    {
+      "node": "MeadowGrass380",
+      "sprite": "foliage13",
+      "position": [
+        1123.68,
+        871.81
+      ]
+    },
+    {
+      "node": "MeadowGrass381",
+      "sprite": "foliage1",
+      "position": [
+        761.11,
+        568.96
+      ]
+    },
+    {
+      "node": "MeadowGrass382",
+      "sprite": "foliage14",
+      "position": [
+        277.68,
+        219.23
+      ]
+    },
+    {
+      "node": "MeadowGrass383",
+      "sprite": "foliage1",
+      "position": [
+        1061.94,
+        413.5
+      ]
+    },
+    {
+      "node": "MeadowGrass384",
+      "sprite": "foliage11",
+      "position": [
+        633.09,
+        321.19
+      ]
+    },
+    {
+      "node": "MeadowGrass385",
+      "sprite": "foliage14",
+      "position": [
+        107.48,
+        722.83
+      ]
+    },
+    {
+      "node": "MeadowGrass386",
+      "sprite": "foliage13",
+      "position": [
+        800.45,
+        37.71
+      ]
+    },
+    {
+      "node": "MeadowGrass387",
+      "sprite": "foliage18",
+      "position": [
+        93.81,
+        878.27
+      ]
+    },
+    {
+      "node": "MeadowGrass388",
+      "sprite": "foliage6",
+      "position": [
+        124.16,
+        879.68
+      ]
+    },
+    {
+      "node": "MeadowGrass389",
+      "sprite": "foliage11",
+      "position": [
+        314.78,
+        166.87
+      ]
+    },
+    {
+      "node": "MeadowGrass390",
+      "sprite": "foliage18",
+      "position": [
+        1028.52,
+        442.58
+      ]
+    },
+    {
+      "node": "MeadowGrass391",
+      "sprite": "foliage11",
+      "position": [
+        189.46,
+        276.21
+      ]
+    },
+    {
+      "node": "MeadowGrass392",
+      "sprite": "foliage11",
+      "position": [
+        839.83,
+        850.1
+      ]
+    },
+    {
+      "node": "MeadowGrass393",
+      "sprite": "foliage18",
+      "position": [
+        407.03,
+        370.4
+      ]
+    },
+    {
+      "node": "MeadowGrass394",
+      "sprite": "foliage14",
+      "position": [
+        374.65,
+        443.48
+      ]
+    },
+    {
+      "node": "MeadowGrass395",
+      "sprite": "foliage18",
+      "position": [
+        816.28,
+        238.41
+      ]
+    },
+    {
+      "node": "MeadowGrass396",
+      "sprite": "foliage18",
+      "position": [
+        900.36,
+        526.29
+      ]
+    },
+    {
+      "node": "MeadowGrass397",
+      "sprite": "foliage7",
+      "position": [
+        855.25,
+        585.62
+      ]
+    },
+    {
+      "node": "MeadowGrass398",
+      "sprite": "foliage12",
+      "position": [
+        391.46,
+        21.36
+      ]
+    },
+    {
+      "node": "MeadowGrass399",
+      "sprite": "foliage12",
+      "position": [
+        764.71,
+        419.05
+      ]
+    },
+    {
+      "node": "MeadowGrass400",
+      "sprite": "foliage11",
+      "position": [
+        928.49,
+        184.14
+      ]
+    },
+    {
+      "node": "MeadowGrass401",
+      "sprite": "foliage6",
+      "position": [
+        1154.5,
+        223.73
+      ]
+    },
+    {
+      "node": "MeadowGrass402",
+      "sprite": "foliage6",
+      "position": [
+        201.05,
+        111.87
+      ]
+    },
+    {
+      "node": "MeadowGrass403",
+      "sprite": "foliage7",
+      "position": [
+        703.62,
+        111.86
+      ]
+    },
+    {
+      "node": "MeadowGrass404",
+      "sprite": "foliage14",
+      "position": [
+        403.22,
+        257.42
+      ]
+    },
+    {
+      "node": "MeadowGrass405",
+      "sprite": "foliage14",
+      "position": [
+        468.57,
+        142.01
+      ]
+    },
+    {
+      "node": "MeadowGrass406",
+      "sprite": "foliage13",
+      "position": [
+        323.54,
+        435.95
+      ]
+    },
+    {
+      "node": "MeadowGrass407",
+      "sprite": "foliage8",
+      "position": [
+        453.77,
+        530.92
+      ]
+    },
+    {
+      "node": "MeadowGrass408",
+      "sprite": "foliage8",
+      "position": [
+        410.44,
+        281.8
+      ]
+    },
+    {
+      "node": "MeadowGrass409",
+      "sprite": "foliage14",
+      "position": [
+        1002.82,
+        253.32
+      ]
+    },
+    {
+      "node": "MeadowGrass410",
+      "sprite": "foliage6",
+      "position": [
+        1031.93,
+        748.78
+      ]
+    },
+    {
+      "node": "MeadowGrass411",
+      "sprite": "foliage12",
+      "position": [
+        288.6,
+        369.22
+      ]
+    },
+    {
+      "node": "MeadowGrass412",
+      "sprite": "foliage14",
+      "position": [
+        1166.87,
+        247.19
+      ]
+    },
+    {
+      "node": "MeadowGrass413",
+      "sprite": "foliage8",
+      "position": [
+        495.36,
+        504.79
+      ]
+    },
+    {
+      "node": "MeadowGrass414",
+      "sprite": "foliage7",
+      "position": [
+        688.59,
+        845.62
+      ]
+    },
+    {
+      "node": "MeadowGrass415",
+      "sprite": "foliage18",
+      "position": [
+        331.65,
+        26.72
+      ]
+    },
+    {
+      "node": "MeadowGrass416",
+      "sprite": "foliage2",
+      "position": [
+        641.79,
+        268.06
+      ]
+    },
+    {
+      "node": "MeadowGrass417",
+      "sprite": "foliage17",
+      "position": [
+        411.23,
+        533.29
+      ]
+    },
+    {
+      "node": "MeadowGrass418",
+      "sprite": "foliage6",
+      "position": [
+        1123.85,
+        377.71
+      ]
+    },
+    {
+      "node": "MeadowGrass419",
+      "sprite": "foliage11",
+      "position": [
+        1054.49,
+        489.85
+      ]
+    },
+    {
+      "node": "MeadowGrass420",
+      "sprite": "foliage18",
+      "position": [
+        653.49,
+        194.74
+      ]
+    },
+    {
+      "node": "MeadowGrass421",
+      "sprite": "foliage11",
+      "position": [
+        675.24,
+        800.51
+      ]
+    },
+    {
+      "node": "MeadowGrass422",
+      "sprite": "foliage7",
+      "position": [
+        636.73,
+        293.82
+      ]
+    },
+    {
+      "node": "MeadowGrass423",
+      "sprite": "foliage12",
+      "position": [
+        877.58,
+        364.87
+      ]
+    },
+    {
+      "node": "MeadowGrass424",
+      "sprite": "foliage13",
+      "position": [
+        1078.18,
+        400.24
+      ]
+    },
+    {
+      "node": "MeadowGrass425",
+      "sprite": "foliage7",
+      "position": [
+        603.55,
+        782.61
+      ]
+    },
+    {
+      "node": "MeadowGrass426",
+      "sprite": "foliage17",
+      "position": [
+        1097.01,
+        432.5
+      ]
+    },
+    {
+      "node": "MeadowGrass427",
+      "sprite": "foliage5",
+      "position": [
+        290.28,
+        325.36
+      ]
+    },
+    {
+      "node": "MeadowGrass428",
+      "sprite": "foliage8",
+      "position": [
+        706.76,
+        737.69
+      ]
+    },
+    {
+      "node": "MeadowGrass429",
+      "sprite": "foliage13",
+      "position": [
+        945.29,
+        410.2
+      ]
+    },
+    {
+      "node": "MeadowGrass430",
+      "sprite": "foliage1",
+      "position": [
+        775.95,
+        127.27
+      ]
+    },
+    {
+      "node": "MeadowGrass431",
+      "sprite": "foliage5",
+      "position": [
+        638.92,
+        761.55
+      ]
+    },
+    {
+      "node": "MeadowGrass432",
+      "sprite": "foliage6",
+      "position": [
+        544.87,
+        113.03
+      ]
+    },
+    {
+      "node": "MeadowGrass433",
+      "sprite": "foliage14",
+      "position": [
+        228.99,
+        158.7
+      ]
+    },
+    {
+      "node": "MeadowGrass434",
+      "sprite": "foliage12",
+      "position": [
+        1029.72,
+        328.26
+      ]
+    },
+    {
+      "node": "MeadowGrass435",
+      "sprite": "foliage5",
+      "position": [
+        759.49,
+        787.06
+      ]
+    },
+    {
+      "node": "MeadowGrass436",
+      "sprite": "foliage5",
+      "position": [
+        906.85,
+        319.31
+      ]
+    },
+    {
+      "node": "MeadowGrass437",
+      "sprite": "foliage6",
+      "position": [
+        775.81,
+        792.12
+      ]
+    },
+    {
+      "node": "MeadowGrass438",
+      "sprite": "foliage6",
+      "position": [
+        1141.64,
+        730.42
+      ]
+    },
+    {
+      "node": "MeadowGrass439",
+      "sprite": "foliage14",
+      "position": [
+        1155.98,
+        157.47
+      ]
+    },
+    {
+      "node": "MeadowGrass441",
+      "sprite": "foliage2",
+      "position": [
+        760.12,
+        497.25
+      ]
+    },
+    {
+      "node": "MeadowGrass442",
+      "sprite": "foliage5",
+      "position": [
+        256.69,
+        151.61
+      ]
+    },
+    {
+      "node": "MeadowGrass443",
+      "sprite": "foliage5",
+      "position": [
+        586.89,
+        335.31
+      ]
+    },
+    {
+      "node": "MeadowGrass444",
+      "sprite": "foliage17",
+      "position": [
+        1035.64,
+        811.81
+      ]
+    },
+    {
+      "node": "MeadowGrass445",
+      "sprite": "foliage6",
+      "position": [
+        1152.25,
+        856.04
+      ]
+    },
+    {
+      "node": "MeadowGrass446",
+      "sprite": "foliage8",
+      "position": [
+        286.42,
+        621.17
+      ]
+    },
+    {
+      "node": "MeadowGrass447",
+      "sprite": "foliage17",
+      "position": [
+        230.42,
+        446.65
+      ]
+    },
+    {
+      "node": "MeadowGrass448",
+      "sprite": "foliage7",
+      "position": [
+        435.88,
+        360.11
+      ]
+    },
+    {
+      "node": "MeadowGrass449",
+      "sprite": "foliage2",
+      "position": [
+        538.92,
+        673.68
+      ]
+    },
+    {
+      "node": "MeadowGrass450",
+      "sprite": "foliage5",
+      "position": [
+        739.29,
+        111.53
+      ]
+    },
+    {
+      "node": "MeadowGrass451",
+      "sprite": "foliage11",
+      "position": [
+        1106.57,
+        400.03
+      ]
+    },
+    {
+      "node": "MeadowGrass452",
+      "sprite": "foliage2",
+      "position": [
+        96.24,
+        488.53
+      ]
+    },
+    {
+      "node": "MeadowGrass453",
+      "sprite": "foliage14",
+      "position": [
+        972.06,
+        582.66
+      ]
+    },
+    {
+      "node": "MeadowGrass454",
+      "sprite": "foliage6",
+      "position": [
+        725.79,
+        565.57
+      ]
+    },
+    {
+      "node": "MeadowGrass455",
+      "sprite": "foliage13",
+      "position": [
+        460.43,
+        276.93
+      ]
+    },
+    {
+      "node": "MeadowGrass456",
+      "sprite": "foliage2",
+      "position": [
+        1134.04,
+        678.57
+      ]
+    },
+    {
+      "node": "MeadowGrass457",
+      "sprite": "foliage13",
+      "position": [
+        492.95,
+        859.09
+      ]
+    },
+    {
+      "node": "MeadowGrass458",
+      "sprite": "foliage6",
+      "position": [
+        1098.1,
+        348.02
+      ]
+    },
+    {
+      "node": "MeadowGrass459",
+      "sprite": "foliage1",
+      "position": [
+        743.72,
+        531.61
+      ]
+    },
+    {
+      "node": "MeadowGrass460",
+      "sprite": "foliage12",
+      "position": [
+        932.23,
+        657.53
+      ]
+    },
+    {
+      "node": "MeadowGrass461",
+      "sprite": "foliage18",
+      "position": [
+        915.26,
+        135.38
+      ]
+    },
+    {
+      "node": "MeadowGrass462",
+      "sprite": "foliage2",
+      "position": [
+        200.68,
+        687.22
+      ]
+    },
+    {
+      "node": "MeadowGrass463",
+      "sprite": "foliage8",
+      "position": [
+        732.8,
+        654.47
+      ]
+    },
+    {
+      "node": "MeadowGrass464",
+      "sprite": "foliage6",
+      "position": [
+        703.83,
+        409.67
+      ]
+    },
+    {
+      "node": "MeadowGrass465",
+      "sprite": "foliage8",
+      "position": [
+        35.39,
+        220.32
+      ]
+    },
+    {
+      "node": "MeadowGrass466",
+      "sprite": "foliage11",
+      "position": [
+        931.46,
+        163.54
+      ]
+    },
+    {
+      "node": "MeadowGrass467",
+      "sprite": "foliage12",
+      "position": [
+        917.57,
+        152.88
+      ]
+    },
+    {
+      "node": "MeadowGrass468",
+      "sprite": "foliage5",
+      "position": [
+        43.03,
+        633.98
+      ]
+    },
+    {
+      "node": "MeadowGrass469",
+      "sprite": "foliage8",
+      "position": [
+        370.63,
+        720.13
+      ]
+    },
+    {
+      "node": "MeadowGrass470",
+      "sprite": "foliage6",
+      "position": [
+        342.89,
+        437.33
+      ]
+    },
+    {
+      "node": "MeadowGrass471",
+      "sprite": "foliage5",
+      "position": [
+        962.19,
+        434.26
+      ]
+    },
+    {
+      "node": "MeadowGrass472",
+      "sprite": "foliage1",
+      "position": [
+        1025.82,
+        683.89
+      ]
+    },
+    {
+      "node": "MeadowGrass473",
+      "sprite": "foliage18",
+      "position": [
+        45.26,
+        462.19
+      ]
+    },
+    {
+      "node": "MeadowGrass474",
+      "sprite": "foliage18",
+      "position": [
+        15.93,
+        267.91
+      ]
+    },
+    {
+      "node": "MeadowGrass475",
+      "sprite": "foliage5",
+      "position": [
+        902.52,
+        736.63
+      ]
+    },
+    {
+      "node": "MeadowGrass476",
+      "sprite": "foliage11",
+      "position": [
+        918.73,
+        424.7
+      ]
+    },
+    {
+      "node": "MeadowGrass477",
+      "sprite": "foliage6",
+      "position": [
+        151.97,
+        853.53
+      ]
+    },
+    {
+      "node": "MeadowGrass478",
+      "sprite": "foliage13",
+      "position": [
+        698.52,
+        508.66
+      ]
+    },
+    {
+      "node": "MeadowGrass479",
+      "sprite": "foliage8",
+      "position": [
+        716.69,
+        218.07
+      ]
+    },
+    {
+      "node": "MeadowGrass480",
+      "sprite": "foliage18",
+      "position": [
+        986.08,
+        540.49
+      ]
+    },
+    {
+      "node": "MeadowGrass481",
+      "sprite": "foliage18",
+      "position": [
+        709.34,
+        781.2
+      ]
+    },
+    {
+      "node": "MeadowGrass482",
+      "sprite": "foliage1",
+      "position": [
+        890.12,
+        617.34
+      ]
+    },
+    {
+      "node": "MeadowGrass483",
+      "sprite": "foliage8",
+      "position": [
+        1037.9,
+        489.58
+      ]
+    },
+    {
+      "node": "MeadowGrass484",
+      "sprite": "foliage11",
+      "position": [
+        457.51,
+        385.77
+      ]
+    },
+    {
+      "node": "MeadowGrass485",
+      "sprite": "foliage7",
+      "position": [
+        664.47,
+        756.2
+      ]
+    },
+    {
+      "node": "MeadowGrass486",
+      "sprite": "foliage8",
+      "position": [
+        306.77,
+        655.38
+      ]
+    },
+    {
+      "node": "MeadowGrass487",
+      "sprite": "foliage2",
+      "position": [
+        795.07,
+        467.04
+      ]
+    },
+    {
+      "node": "MeadowGrass488",
+      "sprite": "foliage1",
+      "position": [
+        36.78,
+        652.45
+      ]
+    },
+    {
+      "node": "MeadowGrass489",
+      "sprite": "foliage7",
+      "position": [
+        665.17,
+        509.64
+      ]
+    },
+    {
+      "node": "MeadowGrass490",
+      "sprite": "foliage7",
+      "position": [
+        109.46,
+        262.73
+      ]
+    },
+    {
+      "node": "MeadowGrass491",
+      "sprite": "foliage6",
+      "position": [
+        182.74,
+        676.08
+      ]
+    },
+    {
+      "node": "MeadowGrass492",
+      "sprite": "foliage7",
+      "position": [
+        557.26,
+        720.96
+      ]
+    },
+    {
+      "node": "MeadowGrass493",
+      "sprite": "foliage8",
+      "position": [
+        743.11,
+        877.29
+      ]
+    },
+    {
+      "node": "MeadowGrass494",
+      "sprite": "foliage11",
+      "position": [
+        716.06,
+        703.07
+      ]
+    },
+    {
+      "node": "MeadowGrass495",
+      "sprite": "foliage14",
+      "position": [
+        219.92,
+        311.04
+      ]
+    },
+    {
+      "node": "MeadowGrass496",
+      "sprite": "foliage14",
+      "position": [
+        136.53,
+        318.67
+      ]
+    },
+    {
+      "node": "MeadowGrass497",
+      "sprite": "foliage14",
+      "position": [
+        93.57,
+        68.7
+      ]
+    },
+    {
+      "node": "MeadowGrass498",
+      "sprite": "foliage8",
+      "position": [
+        308.7,
+        491.21
+      ]
+    },
+    {
+      "node": "MeadowGrass499",
+      "sprite": "foliage5",
+      "position": [
+        385.9,
+        676.57
+      ]
+    },
+    {
+      "node": "MeadowGrass500",
+      "sprite": "foliage1",
+      "position": [
+        935.99,
+        694.51
+      ]
+    },
+    {
+      "node": "MeadowGrass501",
+      "sprite": "foliage18",
+      "position": [
+        125.15,
+        686.86
+      ]
+    },
+    {
+      "node": "MeadowGrass502",
+      "sprite": "foliage14",
+      "position": [
+        1035.84,
+        646.49
+      ]
+    },
+    {
+      "node": "MeadowGrass503",
+      "sprite": "foliage13",
+      "position": [
+        324.57,
+        542.6
+      ]
+    },
+    {
+      "node": "MeadowGrass504",
+      "sprite": "foliage2",
+      "position": [
+        180.5,
+        305.88
+      ]
+    },
+    {
+      "node": "MeadowGrass505",
+      "sprite": "foliage5",
+      "position": [
+        707.71,
+        796.83
+      ]
+    },
+    {
+      "node": "MeadowGrass506",
+      "sprite": "foliage17",
+      "position": [
+        829.86,
+        377.64
+      ]
+    },
+    {
+      "node": "MeadowGrass507",
+      "sprite": "foliage18",
+      "position": [
+        555.8,
+        388.91
+      ]
+    },
+    {
+      "node": "MeadowGrass508",
+      "sprite": "foliage18",
+      "position": [
+        346.73,
+        153.62
+      ]
+    },
+    {
+      "node": "MeadowGrass509",
+      "sprite": "foliage1",
+      "position": [
+        775.98,
+        109.04
+      ]
+    },
+    {
+      "node": "MeadowGrass510",
+      "sprite": "foliage6",
+      "position": [
+        868.51,
+        556.42
+      ]
+    },
+    {
+      "node": "MeadowGrass511",
+      "sprite": "foliage12",
+      "position": [
+        664.13,
+        446.42
+      ]
+    },
+    {
+      "node": "MeadowGrass512",
+      "sprite": "foliage13",
+      "position": [
+        518.9,
+        231.52
+      ]
+    },
+    {
+      "node": "MeadowGrass513",
+      "sprite": "foliage17",
+      "position": [
+        864.37,
+        525.89
+      ]
+    },
+    {
+      "node": "MeadowGrass514",
+      "sprite": "foliage5",
+      "position": [
+        1083.65,
+        82.8
+      ]
+    },
+    {
+      "node": "MeadowGrass515",
+      "sprite": "foliage6",
+      "position": [
+        965.05,
+        562.94
+      ]
+    },
+    {
+      "node": "MeadowGrass516",
+      "sprite": "foliage11",
+      "position": [
+        699.75,
+        436.64
+      ]
+    },
+    {
+      "node": "MeadowGrass517",
+      "sprite": "foliage13",
+      "position": [
+        620.39,
+        703.01
+      ]
+    },
+    {
+      "node": "MeadowGrass518",
+      "sprite": "foliage14",
+      "position": [
+        268.46,
+        627.54
+      ]
+    },
+    {
+      "node": "MeadowGrass519",
+      "sprite": "foliage2",
+      "position": [
+        196.88,
+        544.85
+      ]
+    },
+    {
+      "node": "MeadowGrass520",
+      "sprite": "foliage8",
+      "position": [
+        1008.06,
+        775.45
+      ]
+    },
+    {
+      "node": "MeadowGrass521",
+      "sprite": "foliage12",
+      "position": [
+        61.43,
+        717.66
+      ]
+    },
+    {
+      "node": "MeadowGrass522",
+      "sprite": "foliage1",
+      "position": [
+        363.79,
+        425.04
+      ]
+    },
+    {
+      "node": "MeadowGrass523",
+      "sprite": "foliage18",
+      "position": [
+        1184.8,
+        344.01
+      ]
+    },
+    {
+      "node": "MeadowGrass524",
+      "sprite": "foliage17",
+      "position": [
+        1012.52,
+        311.91
+      ]
+    },
+    {
+      "node": "MeadowGrass525",
+      "sprite": "foliage5",
+      "position": [
+        879.55,
+        641.29
+      ]
+    },
+    {
+      "node": "MeadowGrass526",
+      "sprite": "foliage17",
+      "position": [
+        913.25,
+        652.63
+      ]
+    },
+    {
+      "node": "MeadowGrass527",
+      "sprite": "foliage17",
+      "position": [
+        1002.3,
+        523.69
+      ]
+    },
+    {
+      "node": "MeadowGrass528",
+      "sprite": "foliage7",
+      "position": [
+        293.15,
+        235.9
+      ]
+    },
+    {
+      "node": "MeadowGrass529",
+      "sprite": "foliage17",
+      "position": [
+        1155.34,
+        407.56
+      ]
+    },
+    {
+      "node": "MeadowGrass530",
+      "sprite": "foliage7",
+      "position": [
+        527.23,
+        867.29
+      ]
+    },
+    {
+      "node": "MeadowGrass531",
+      "sprite": "foliage13",
+      "position": [
+        747.67,
+        212.88
+      ]
+    },
+    {
+      "node": "MeadowGrass532",
+      "sprite": "foliage2",
+      "position": [
+        736.63,
+        716.85
+      ]
+    },
+    {
+      "node": "MeadowGrass533",
+      "sprite": "foliage14",
+      "position": [
+        866.32,
+        142.8
+      ]
+    },
+    {
+      "node": "MeadowGrass534",
+      "sprite": "foliage14",
+      "position": [
+        221.11,
+        201.55
+      ]
+    },
+    {
+      "node": "MeadowGrass535",
+      "sprite": "foliage2",
+      "position": [
+        206.12,
+        661.67
+      ]
+    },
+    {
+      "node": "MeadowGrass536",
+      "sprite": "foliage8",
+      "position": [
+        256.18,
+        671.69
+      ]
+    },
+    {
+      "node": "MeadowGrass537",
+      "sprite": "foliage1",
+      "position": [
+        12.05,
+        656.53
+      ]
+    },
+    {
+      "node": "MeadowGrass538",
+      "sprite": "foliage14",
+      "position": [
+        992.8,
+        38.27
+      ]
+    },
+    {
+      "node": "MeadowGrass539",
+      "sprite": "foliage18",
+      "position": [
+        373.63,
+        62.16
+      ]
+    },
+    {
+      "node": "MeadowGrass540",
+      "sprite": "foliage14",
+      "position": [
+        71.72,
+        453.55
+      ]
+    },
+    {
+      "node": "MeadowGrass541",
+      "sprite": "foliage5",
+      "position": [
+        232.8,
+        293.77
+      ]
+    },
+    {
+      "node": "MeadowGrass542",
+      "sprite": "foliage5",
+      "position": [
+        49.29,
+        235.11
+      ]
+    },
+    {
+      "node": "MeadowGrass543",
+      "sprite": "foliage7",
+      "position": [
+        876.85,
+        514.39
+      ]
+    },
+    {
+      "node": "MeadowGrass544",
+      "sprite": "foliage11",
+      "position": [
+        817.88,
+        636.75
+      ]
+    },
+    {
+      "node": "MeadowGrass545",
+      "sprite": "foliage2",
+      "position": [
+        851.73,
+        229.23
+      ]
+    },
+    {
+      "node": "MeadowGrass546",
+      "sprite": "foliage18",
+      "position": [
+        497.85,
+        738.78
+      ]
+    },
+    {
+      "node": "MeadowGrass547",
+      "sprite": "foliage12",
+      "position": [
+        999.83,
+        835.87
+      ]
+    },
+    {
+      "node": "MeadowGrass548",
+      "sprite": "foliage7",
+      "position": [
+        161.11,
+        324.22
+      ]
+    },
+    {
+      "node": "MeadowGrass549",
+      "sprite": "foliage1",
+      "position": [
+        28.56,
+        188.95
+      ]
+    },
+    {
+      "node": "MeadowGrass550",
+      "sprite": "foliage17",
+      "position": [
+        503.32,
+        486.16
+      ]
+    },
+    {
+      "node": "FenceWest01",
+      "sprite": "wood_fence_horizontal",
+      "position": [
+        425,
+        790
+      ]
+    },
+    {
+      "node": "FenceWest02",
+      "sprite": "wood_fence_horizontal",
+      "position": [
+        478,
+        790
+      ]
+    },
+    {
+      "node": "OpenGateWest",
+      "sprite": "wood_gate_open_left",
+      "position": [
+        530,
+        790
+      ]
+    },
+    {
+      "node": "OpenGateEast",
+      "sprite": "wood_gate_open_right",
+      "position": [
+        670,
+        790
+      ]
+    },
+    {
+      "node": "FenceEast01",
+      "sprite": "wood_fence_horizontal",
+      "position": [
+        722,
+        790
+      ]
+    },
+    {
+      "node": "FenceEast02",
+      "sprite": "wood_fence_horizontal",
+      "position": [
+        775,
+        790
+      ]
+    },
+    {
+      "node": "FenceWestReturn",
+      "sprite": "wood_fence_vertical",
+      "position": [
+        400,
+        750
+      ]
+    },
+    {
+      "node": "FenceEastReturn",
+      "sprite": "wood_fence_vertical",
+      "position": [
+        800,
+        750
+      ]
+    },
+    {
+      "node": "ClosedGate",
+      "sprite": "wood_gate_closed",
+      "position": [
+        400,
+        674
+      ]
+    },
+    {
+      "node": "SideGate",
+      "sprite": "wood_gate_vertical",
+      "position": [
+        800,
+        675
+      ]
+    }
+  ],
+  "animal_assignments": [
+    {
+      "node": "BrownRabbit",
+      "sprite": "forest_rabbit",
+      "scale": 0.55,
+      "behavior": "rabbit_hop"
+    },
+    {
+      "node": "CreamRabbit",
+      "sprite": "forest_rabbit",
+      "scale": 0.55,
+      "behavior": "rabbit_hop"
+    },
+    {
+      "node": "Fox",
+      "sprite": "forest_fox",
+      "scale": 0.7,
+      "behavior": "fox"
+    },
+    {
+      "node": "Wolf",
+      "sprite": "forest_raccoon",
+      "scale": 0.65,
+      "behavior": "raccoon"
+    },
+    {
+      "node": "Stag",
+      "sprite": "forest_fawn",
+      "scale": 0.8,
+      "behavior": "deer"
+    },
+    {
+      "node": "Fawn",
+      "sprite": "forest_fawn",
+      "scale": 0.8,
+      "behavior": "deer"
+    },
+    {
+      "node": "BlueBird",
+      "sprite": "forest_owl",
+      "scale": 0.6,
+      "behavior": "perched_owl",
+      "perch_tree": "EnvironmentTree03"
+    },
+    {
+      "node": "RedBird",
+      "sprite": "forest_owl",
+      "scale": 0.6,
+      "behavior": "perched_owl",
+      "perch_tree": "EnvironmentTree30"
+    },
+    {
+      "node": "Squirrel",
+      "sprite": "forest_squirrel",
+      "scale": 0.5,
+      "behavior": "squirrel"
+    },
+    {
+      "node": "Hedgehog",
+      "sprite": "forest_hedgehog",
+      "scale": 0.5,
+      "behavior": "hedgehog"
+    },
+    {
+      "node": "Frog",
+      "sprite": "forest_frog",
+      "scale": 0.45,
+      "behavior": "frog_leap"
+    },
+    {
+      "node": "Mallard",
+      "sprite": "forest_duck",
+      "scale": 0.6,
+      "behavior": "duck"
+    },
+    {
+      "node": "SmallBrownRabbit",
+      "sprite": "forest_rabbit",
+      "scale": 0.55,
+      "behavior": "rabbit_hop"
+    },
+    {
+      "node": "SmallCreamRabbit",
+      "sprite": "forest_rabbit",
+      "scale": 0.55,
+      "behavior": "rabbit_hop"
+    },
+    {
+      "node": "GrayRabbit",
+      "sprite": "forest_raccoon",
+      "scale": 0.65,
+      "behavior": "raccoon"
+    },
+    {
+      "node": "FoxVariant",
+      "sprite": "forest_fox",
+      "scale": 0.7,
+      "behavior": "fox"
+    },
+    {
+      "node": "WhiteFox",
+      "sprite": "forest_raccoon",
+      "scale": 0.65,
+      "behavior": "raccoon"
+    },
+    {
+      "node": "GreenFrog",
+      "sprite": "forest_frog",
+      "scale": 0.45,
+      "behavior": "frog_leap"
+    },
+    {
+      "node": "BlueFrog",
+      "sprite": "forest_boar",
+      "scale": 0.8,
+      "behavior": "hog"
+    },
+    {
+      "node": "PurpleFrog",
+      "sprite": "forest_boar",
+      "scale": 0.8,
+      "behavior": "hog"
+    },
+    {
+      "node": "WhiteDuck",
+      "sprite": "forest_duck",
+      "scale": 0.6,
+      "behavior": "duck"
+    },
+    {
+      "node": "BrownDuck",
+      "sprite": "forest_duck",
+      "scale": 0.6,
+      "behavior": "duck"
+    }
+  ],
+  "monster_assignments": [
+    {
+      "node": "MonsterTreeGiant",
+      "sprite": "monster_TreeGiant",
+      "position": [
+        99.2,
+        176.25
+      ],
+      "height": 74,
+      "glow": null,
+      "behavior": "tree_giant"
+    },
+    {
+      "node": "MonsterMossGolem",
+      "sprite": "monster_MossGolem",
+      "position": [
+        687.58,
+        411.13
+      ],
+      "height": 70,
+      "glow": null,
+      "behavior": "moss_golem"
+    },
+    {
+      "node": "MonsterMushroomGiant",
+      "sprite": "monster_MushroomGiant",
+      "position": [
+        359.3,
+        724.38
+      ],
+      "height": 62,
+      "glow": null
+    },
+    {
+      "node": "MonsterRunestone",
+      "sprite": "monster_Runestone",
+      "position": [
+        433.95,
+        667.7
+      ],
+      "height": 48,
+      "glow": null,
+      "behavior": "runestone"
+    },
+    {
+      "node": "MonsterStoneGolem",
+      "sprite": "monster_StoneGolem",
+      "position": [
+        798.75,
+        66.56
+      ],
+      "height": 47,
+      "glow": null,
+      "behavior": "golem"
+    },
+    {
+      "node": "MonsterMage",
+      "sprite": "monster_Mage",
+      "position": [
+        802.18,
+        383.49
+      ],
+      "height": 37,
+      "glow": null,
+      "behavior": "mage"
+    },
+    {
+      "node": "MonsterSnapPlant",
+      "sprite": "monster_SnapPlant",
+      "position": [
+        665.16,
+        106.16
+      ],
+      "height": 35,
+      "glow": null,
+      "behavior": "plant"
+    },
+    {
+      "node": "MonsterHornGoblin",
+      "sprite": "monster_HornGoblin",
+      "position": [
+        222.03,
+        449.08
+      ],
+      "height": 35,
+      "glow": null,
+      "behavior": "horned"
+    },
+    {
+      "node": "MonsterHelmetGoblin",
+      "sprite": "monster_HelmetGoblin",
+      "position": [
+        610.86,
+        711.73
+      ],
+      "height": 32,
+      "glow": null,
+      "behavior": "armored"
+    },
+    {
+      "node": "MonsterBoar",
+      "sprite": "monster_Boar",
+      "position": [
+        323.89,
+        410.33
+      ],
+      "height": 30,
+      "glow": null
+    },
+    {
+      "node": "MonsterGoblin",
+      "sprite": "monster_Goblin",
+      "position": [
+        66.57,
+        97.56
+      ],
+      "height": 30,
+      "glow": null,
+      "behavior": "goblin"
+    },
+    {
+      "node": "MonsterCrystalCreature",
+      "sprite": "monster_CrystalCreature",
+      "position": [
+        558.05,
+        680.74
+      ],
+      "height": 30,
+      "glow": null,
+      "behavior": "crystal"
+    },
+    {
+      "node": "MonsterFireWisp",
+      "sprite": "monster_FireWisp",
+      "position": [
+        740.93,
+        411.15
+      ],
+      "height": 26,
+      "glow": null,
+      "behavior": "fire_wisp"
+    },
+    {
+      "node": "MonsterRedMushroom",
+      "sprite": "monster_RedMushroom",
+      "position": [
+        291.39,
+        395.57
+      ],
+      "height": 24,
+      "glow": null
+    },
+    {
+      "node": "MonsterGoldMushroom",
+      "sprite": "monster_GoldMushroom",
+      "position": [
+        844.29,
+        611.21
+      ],
+      "height": 24,
+      "glow": null
+    },
+    {
+      "node": "MonsterBlueWisp",
+      "sprite": "monster_BlueWisp",
+      "position": [
+        672.37,
+        469.12
+      ],
+      "height": 24,
+      "glow": null,
+      "behavior": "wisp"
+    },
+    {
+      "node": "MonsterGlowSlimeGreen",
+      "sprite": "monster_GlowSlimeGreen",
+      "position": [
+        1071.99,
+        565.18
+      ],
+      "height": 19,
+      "glow": "0.55,1,0.18,1"
+    },
+    {
+      "node": "MonsterGlowSlimeTeal",
+      "sprite": "monster_GlowSlimeTeal",
+      "position": [
+        1098.11,
+        158.28
+      ],
+      "height": 19,
+      "glow": "0.12,0.95,0.95,1"
+    },
+    {
+      "node": "MonsterGlowSlimeBlue",
+      "sprite": "monster_GlowSlimeBlue",
+      "position": [
+        363.03,
+        353.24
+      ],
+      "height": 19,
+      "glow": "0.20,0.50,1,1"
+    },
+    {
+      "node": "MonsterGlowSlimePurple",
+      "sprite": "monster_GlowSlimePurple",
+      "position": [
+        1092.65,
+        535.4
+      ],
+      "height": 19,
+      "glow": "0.67,0.25,1,1"
+    },
+    {
+      "node": "MonsterGlowSlimePink",
+      "sprite": "monster_GlowSlimePink",
+      "position": [
+        74.14,
+        649.07
+      ],
+      "height": 19,
+      "glow": "1,0.22,0.67,1"
+    },
+    {
+      "node": "MonsterGlowSlimeOrange",
+      "sprite": "monster_GlowSlimeOrange",
+      "position": [
+        257.48,
+        460.12
+      ],
+      "height": 19,
+      "glow": "1,0.48,0.08,1"
+    },
+    {
+      "node": "MonsterSlimeGreen",
+      "sprite": "monster_SlimeGreen",
+      "position": [
+        512.27,
+        544.54
+      ],
+      "height": 17,
+      "glow": "0.55,1,0.18,1"
+    },
+    {
+      "node": "MonsterSlimeBlue",
+      "sprite": "monster_SlimeBlue",
+      "position": [
+        402.87,
+        798.03
+      ],
+      "height": 17,
+      "glow": "0.20,0.50,1,1"
+    },
+    {
+      "node": "MonsterSlimePurple",
+      "sprite": "monster_SlimePurple",
+      "position": [
+        808.34,
+        511.53
+      ],
+      "height": 17,
+      "glow": "0.67,0.25,1,1"
+    },
+    {
+      "node": "MonsterBat",
+      "sprite": "monster_Bat",
+      "position": [
+        746.63,
+        94.33
+      ],
+      "height": 17,
+      "glow": null,
+      "behavior": "bat"
+    },
+    {
+      "node": "MonsterRat",
+      "sprite": "monster_Rat",
+      "position": [
+        848.12,
+        66.55
+      ],
+      "height": 15,
+      "glow": null,
+      "behavior": "rat"
+    },
+    {
+      "node": "MonsterBee",
+      "sprite": "monster_Bee",
+      "position": [
+        1018.73,
+        220.01
+      ],
+      "height": 14,
+      "glow": null
+    },
+    {
+      "node": "MonsterSpider",
+      "sprite": "monster_Spider",
+      "position": [
+        1141.83,
+        555.56
+      ],
+      "height": 13,
+      "glow": null,
+      "behavior": "spider"
+    }
+  ]
+}
