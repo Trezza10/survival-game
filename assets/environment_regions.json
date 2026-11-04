@@ -1124,6 +1124,69 @@
         260,
         380
       ]
+    },
+    "tree1_stump": {
+      "sheet": "trees",
+      "rect": [
+        170,
+        505,
+        99,
+        45
+      ]
+    },
+    "tree2_stump": {
+      "sheet": "trees",
+      "rect": [
+        477,
+        493,
+        127,
+        57
+      ]
+    },
+    "tree3_stump": {
+      "sheet": "trees",
+      "rect": [
+        806,
+        504,
+        138,
+        46
+      ]
+    },
+    "tree4_stump": {
+      "sheet": "trees",
+      "rect": [
+        1137,
+        504,
+        140,
+        46
+      ]
+    },
+    "tree5_stump": {
+      "sheet": "trees",
+      "rect": [
+        149,
+        899,
+        145,
+        44
+      ]
+    },
+    "tree6_stump": {
+      "sheet": "trees",
+      "rect": [
+        502,
+        893,
+        123,
+        44
+      ]
+    },
+    "tree7_stump": {
+      "sheet": "trees",
+      "rect": [
+        822,
+        903,
+        114,
+        38
+      ]
     }
   },
   "placements": [

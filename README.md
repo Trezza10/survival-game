@@ -1,5 +1,13 @@
 # survival game
 
+[Play the latest web/mobile build](https://trezza10.github.io/survival-game/). Pushing `main` automatically builds and deploys GitHub Pages.
+
+## Tree chopping
+
+Walk close to a tree, face it, and tap the lower-right axe button on mobile. Keyboard: Space or F. Controller: left face button (X on Xbox / Square on PlayStation). Four hits fell a tree. The axe selects a nearby tree ahead within 64 world units, with collision checks to avoid reaching through other objects. A swing can hit once and has a short cooldown.
+
+Existing sprites provide the tree shake, tipping/fade, and normal-mapped stump; a drawn axe/trail, saved wood-chip emitters, and synthesized whoosh/thunk/crack sounds provide feedback without character animation frames. Chopped trees stay down for the session and reset on reload. No animal damage or item drops. Pause freezes swings, falling trees and particles. All trees, stumps, sound players and emitters are saved in the scene.
+
 Minimal Godot 4.7 walking playground. Open `project.godot` and press F5.
 
 The game uses a 1280×720 (16:9) base viewport with aspect-preserving window scaling. A Camera2D saved under the Player follows smoothly at 1.5× zoom, showing roughly 853×480 world units. It tracks the player's stable physics position, so the walking bob does not shake the view, and stops at the meadow boundaries. Adjust `Actors/Player/Camera` in the scene to tune zoom and smoothing.

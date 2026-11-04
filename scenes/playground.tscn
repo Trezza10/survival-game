@@ -61,6 +61,12 @@
 
 [ext_resource type="Script" path="res://scripts/touch_controls.gd" id="touch_controls_script"]
 
+[ext_resource type="Script" path="res://scripts/axe.gd" id="axe_script"]
+[ext_resource type="Script" path="res://scripts/choppable_tree.gd" id="chop_script"]
+[ext_resource type="AudioStream" path="res://assets/audio/axe_whoosh.wav" id="whoosh"]
+[ext_resource type="AudioStream" path="res://assets/audio/wood_hit.wav" id="wood_hit"]
+[ext_resource type="AudioStream" path="res://assets/audio/tree_fall.wav" id="tree_fall"]
+
 [sub_resource type="ShaderMaterial" id="shadow_material"]
 shader = ExtResource("shadow_shader")
 
@@ -2341,6 +2347,76 @@ size = Vector2(53.18181818181818,9)
 [sub_resource type="RectangleShape2D" id="SideGate_collision"]
 size = Vector2(12,55)
 
+[sub_resource type="AtlasTexture" id="tree1_stump"]
+atlas = ExtResource("sheet_trees")
+region = Rect2(170,505,99,45)
+
+[sub_resource type="ShaderMaterial" id="tree1_stump_relief"]
+shader = ExtResource("relief_shader")
+shader_parameter/normal_atlas = ExtResource("normal_sheet_trees")
+shader_parameter/atlas_rect = Vector4(0.11740331491712708,0.46500920810313073,0.06837016574585636,0.04143646408839779)
+shader_parameter/source_pixel_size = Vector2(0.0006906077348066298,0.0009208103130755065)
+
+[sub_resource type="AtlasTexture" id="tree2_stump"]
+atlas = ExtResource("sheet_trees")
+region = Rect2(477,493,127,57)
+
+[sub_resource type="ShaderMaterial" id="tree2_stump_relief"]
+shader = ExtResource("relief_shader")
+shader_parameter/normal_atlas = ExtResource("normal_sheet_trees")
+shader_parameter/atlas_rect = Vector4(0.3294198895027624,0.4539594843462247,0.08770718232044199,0.052486187845303865)
+shader_parameter/source_pixel_size = Vector2(0.0006906077348066298,0.0009208103130755065)
+
+[sub_resource type="AtlasTexture" id="tree3_stump"]
+atlas = ExtResource("sheet_trees")
+region = Rect2(806,504,138,46)
+
+[sub_resource type="ShaderMaterial" id="tree3_stump_relief"]
+shader = ExtResource("relief_shader")
+shader_parameter/normal_atlas = ExtResource("normal_sheet_trees")
+shader_parameter/atlas_rect = Vector4(0.5566298342541437,0.46408839779005523,0.09530386740331492,0.0423572744014733)
+shader_parameter/source_pixel_size = Vector2(0.0006906077348066298,0.0009208103130755065)
+
+[sub_resource type="AtlasTexture" id="tree4_stump"]
+atlas = ExtResource("sheet_trees")
+region = Rect2(1137,504,140,46)
+
+[sub_resource type="ShaderMaterial" id="tree4_stump_relief"]
+shader = ExtResource("relief_shader")
+shader_parameter/normal_atlas = ExtResource("normal_sheet_trees")
+shader_parameter/atlas_rect = Vector4(0.7852209944751382,0.46408839779005523,0.09668508287292818,0.0423572744014733)
+shader_parameter/source_pixel_size = Vector2(0.0006906077348066298,0.0009208103130755065)
+
+[sub_resource type="AtlasTexture" id="tree5_stump"]
+atlas = ExtResource("sheet_trees")
+region = Rect2(149,899,145,44)
+
+[sub_resource type="ShaderMaterial" id="tree5_stump_relief"]
+shader = ExtResource("relief_shader")
+shader_parameter/normal_atlas = ExtResource("normal_sheet_trees")
+shader_parameter/atlas_rect = Vector4(0.10290055248618785,0.8278084714548803,0.10013812154696132,0.040515653775322284)
+shader_parameter/source_pixel_size = Vector2(0.0006906077348066298,0.0009208103130755065)
+
+[sub_resource type="AtlasTexture" id="tree6_stump"]
+atlas = ExtResource("sheet_trees")
+region = Rect2(502,893,123,44)
+
+[sub_resource type="ShaderMaterial" id="tree6_stump_relief"]
+shader = ExtResource("relief_shader")
+shader_parameter/normal_atlas = ExtResource("normal_sheet_trees")
+shader_parameter/atlas_rect = Vector4(0.34668508287292815,0.8222836095764272,0.08494475138121547,0.040515653775322284)
+shader_parameter/source_pixel_size = Vector2(0.0006906077348066298,0.0009208103130755065)
+
+[sub_resource type="AtlasTexture" id="tree7_stump"]
+atlas = ExtResource("sheet_trees")
+region = Rect2(822,903,114,38)
+
+[sub_resource type="ShaderMaterial" id="tree7_stump_relief"]
+shader = ExtResource("relief_shader")
+shader_parameter/normal_atlas = ExtResource("normal_sheet_trees")
+shader_parameter/atlas_rect = Vector4(0.5676795580110497,0.8314917127071824,0.0787292817679558,0.034990791896869246)
+shader_parameter/source_pixel_size = Vector2(0.0006906077348066298,0.0009208103130755065)
+
 [node name="Playground" type="Node2D"]
 script = ExtResource("world")
 
@@ -3141,7 +3217,8 @@ texture_filter = 1
 texture = SubResource("forest_duck")
 material = SubResource("atlas_shadow_material")
 
-[node name="EnvironmentTree01" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree01" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(692.88,252.49)
 collision_layer = 1
 collision_mask = 0
@@ -3168,7 +3245,8 @@ material = SubResource("tree1_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree01"]
 shape = SubResource("EnvironmentTree01_feet")
 
-[node name="EnvironmentTree02" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree02" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(245.87,166.05)
 collision_layer = 1
 collision_mask = 0
@@ -3195,7 +3273,8 @@ material = SubResource("tree2_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree02"]
 shape = SubResource("EnvironmentTree02_feet")
 
-[node name="EnvironmentTree03" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree03" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(934.83,245.67)
 collision_layer = 1
 collision_mask = 0
@@ -3222,7 +3301,8 @@ material = SubResource("tree3_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree03"]
 shape = SubResource("EnvironmentTree03_feet")
 
-[node name="EnvironmentTree04" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree04" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(950,881.27)
 collision_layer = 1
 collision_mask = 0
@@ -3249,7 +3329,8 @@ material = SubResource("tree4_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree04"]
 shape = SubResource("EnvironmentTree04_feet")
 
-[node name="EnvironmentTree05" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree05" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(950,808.57)
 collision_layer = 1
 collision_mask = 0
@@ -3276,7 +3357,8 @@ material = SubResource("tree5_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree05"]
 shape = SubResource("EnvironmentTree05_feet")
 
-[node name="EnvironmentTree06" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree06" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(198.52,238.74)
 collision_layer = 1
 collision_mask = 0
@@ -3303,7 +3385,8 @@ material = SubResource("tree6_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree06"]
 shape = SubResource("EnvironmentTree06_feet")
 
-[node name="EnvironmentTree07" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree07" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(1040.25,802.01)
 collision_layer = 1
 collision_mask = 0
@@ -3330,7 +3413,8 @@ material = SubResource("atlas_shadow_material")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree07"]
 shape = SubResource("EnvironmentTree07_feet")
 
-[node name="EnvironmentTree08" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree08" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(516.58,284.58)
 collision_layer = 1
 collision_mask = 0
@@ -3357,7 +3441,8 @@ material = SubResource("tree1_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree08"]
 shape = SubResource("EnvironmentTree08_feet")
 
-[node name="EnvironmentTree09" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree09" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(502.39,464.61)
 collision_layer = 1
 collision_mask = 0
@@ -3384,7 +3469,8 @@ material = SubResource("tree2_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree09"]
 shape = SubResource("EnvironmentTree09_feet")
 
-[node name="EnvironmentTree10" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree10" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(890.1,764.54)
 collision_layer = 1
 collision_mask = 0
@@ -3411,7 +3497,8 @@ material = SubResource("tree3_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree10"]
 shape = SubResource("EnvironmentTree10_feet")
 
-[node name="EnvironmentTree11" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree11" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(950.59,173.96)
 collision_layer = 1
 collision_mask = 0
@@ -3438,7 +3525,8 @@ material = SubResource("tree4_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree11"]
 shape = SubResource("EnvironmentTree11_feet")
 
-[node name="EnvironmentTree12" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree12" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(258.64,631.44)
 collision_layer = 1
 collision_mask = 0
@@ -3465,7 +3553,8 @@ material = SubResource("tree5_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree12"]
 shape = SubResource("EnvironmentTree12_feet")
 
-[node name="EnvironmentTree13" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree13" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(211.41,699.55)
 collision_layer = 1
 collision_mask = 0
@@ -3492,7 +3581,8 @@ material = SubResource("tree6_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree13"]
 shape = SubResource("EnvironmentTree13_feet")
 
-[node name="EnvironmentTree14" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree14" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(981.23,729.1)
 collision_layer = 1
 collision_mask = 0
@@ -3519,7 +3609,8 @@ material = SubResource("atlas_shadow_material")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree14"]
 shape = SubResource("EnvironmentTree14_feet")
 
-[node name="EnvironmentTree15" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree15" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(716.86,635.05)
 collision_layer = 1
 collision_mask = 0
@@ -3546,7 +3637,8 @@ material = SubResource("tree1_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree15"]
 shape = SubResource("EnvironmentTree15_feet")
 
-[node name="EnvironmentTree16" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree16" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(1150.4,380.15)
 collision_layer = 1
 collision_mask = 0
@@ -3573,7 +3665,8 @@ material = SubResource("tree2_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree16"]
 shape = SubResource("EnvironmentTree16_feet")
 
-[node name="EnvironmentTree17" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree17" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(977.6,578.6)
 collision_layer = 1
 collision_mask = 0
@@ -3600,7 +3693,8 @@ material = SubResource("tree3_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree17"]
 shape = SubResource("EnvironmentTree17_feet")
 
-[node name="EnvironmentTree18" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree18" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(995.25,440.66)
 collision_layer = 1
 collision_mask = 0
@@ -3627,7 +3721,8 @@ material = SubResource("tree4_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree18"]
 shape = SubResource("EnvironmentTree18_feet")
 
-[node name="EnvironmentTree19" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree19" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(841.53,227.9)
 collision_layer = 1
 collision_mask = 0
@@ -3654,7 +3749,8 @@ material = SubResource("tree5_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree19"]
 shape = SubResource("EnvironmentTree19_feet")
 
-[node name="EnvironmentTree20" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree20" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(933.98,369.66)
 collision_layer = 1
 collision_mask = 0
@@ -3681,7 +3777,8 @@ material = SubResource("tree6_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree20"]
 shape = SubResource("EnvironmentTree20_feet")
 
-[node name="EnvironmentTree21" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree21" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(457.95,372.75)
 collision_layer = 1
 collision_mask = 0
@@ -3708,7 +3805,8 @@ material = SubResource("atlas_shadow_material")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree21"]
 shape = SubResource("EnvironmentTree21_feet")
 
-[node name="EnvironmentTree22" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree22" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(436.17,535.45)
 collision_layer = 1
 collision_mask = 0
@@ -3735,7 +3833,8 @@ material = SubResource("tree1_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree22"]
 shape = SubResource("EnvironmentTree22_feet")
 
-[node name="EnvironmentTree23" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree23" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(769.44,261.01)
 collision_layer = 1
 collision_mask = 0
@@ -3762,7 +3861,8 @@ material = SubResource("tree2_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree23"]
 shape = SubResource("EnvironmentTree23_feet")
 
-[node name="EnvironmentTree24" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree24" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(1121.91,860.88)
 collision_layer = 1
 collision_mask = 0
@@ -3789,7 +3889,8 @@ material = SubResource("tree3_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree24"]
 shape = SubResource("EnvironmentTree24_feet")
 
-[node name="EnvironmentTree25" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree25" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(270,867.48)
 collision_layer = 1
 collision_mask = 0
@@ -3816,7 +3917,8 @@ material = SubResource("tree4_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree25"]
 shape = SubResource("EnvironmentTree25_feet")
 
-[node name="EnvironmentTree26" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree26" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(952.06,801.44)
 collision_layer = 1
 collision_mask = 0
@@ -3843,7 +3945,8 @@ material = SubResource("tree5_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree26"]
 shape = SubResource("EnvironmentTree26_feet")
 
-[node name="EnvironmentTree27" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree27" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(245.87,800.82)
 collision_layer = 1
 collision_mask = 0
@@ -3870,7 +3973,8 @@ material = SubResource("tree6_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree27"]
 shape = SubResource("EnvironmentTree27_feet")
 
-[node name="EnvironmentTree28" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree28" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(1005.56,865.43)
 collision_layer = 1
 collision_mask = 0
@@ -3897,7 +4001,8 @@ material = SubResource("atlas_shadow_material")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree28"]
 shape = SubResource("EnvironmentTree28_feet")
 
-[node name="EnvironmentTree29" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree29" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(673.93,710.8)
 collision_layer = 1
 collision_mask = 0
@@ -3924,7 +4029,8 @@ material = SubResource("tree1_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree29"]
 shape = SubResource("EnvironmentTree29_feet")
 
-[node name="EnvironmentTree30" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree30" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(208.19,384.03)
 collision_layer = 1
 collision_mask = 0
@@ -3951,7 +4057,8 @@ material = SubResource("tree3_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree30"]
 shape = SubResource("EnvironmentTree30_feet")
 
-[node name="EnvironmentTree31" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree31" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(712.96,328.34)
 collision_layer = 1
 collision_mask = 0
@@ -3978,7 +4085,8 @@ material = SubResource("tree5_wind_shadow")
 [node name="Feet" type="CollisionShape2D" parent="Actors/EnvironmentTree31"]
 shape = SubResource("EnvironmentTree31_feet")
 
-[node name="EnvironmentTree32" type="StaticBody2D" parent="Actors" groups=["environment"]]
+[node name="EnvironmentTree32" type="StaticBody2D" parent="Actors" groups=["environment", "choppable_trees"]]
+script = ExtResource("chop_script")
 position = Vector2(925.24,528.79)
 collision_layer = 1
 collision_mask = 0
@@ -20431,6 +20539,1134 @@ material = SubResource("atlas_shadow_material")
 position = Vector2(0,-28.5)
 shape = SubResource("SideGate_collision")
 
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree01"]
+visible = false
+position = Vector2(0,-4.449373295024439)
+scale = Vector2(0.2866388131121973,0.2866388131121973)
+texture_filter = 1
+texture = SubResource("tree1_stump")
+material = SubResource("tree1_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree01"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree01"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree01"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree02"]
+visible = false
+position = Vector2(0,-4.6967867892147135)
+scale = Vector2(0.23497497506016538,0.23497497506016538)
+texture_filter = 1
+texture = SubResource("tree2_stump")
+material = SubResource("tree2_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree02"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree02"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree02"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree03"]
+visible = false
+position = Vector2(0,-7.124296538590922)
+scale = Vector2(0.396708545156127,0.396708545156127)
+texture_filter = 1
+texture = SubResource("tree3_stump")
+material = SubResource("tree3_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree03"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree03"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree03"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree04"]
+visible = false
+position = Vector2(0,-6.977049496652491)
+scale = Vector2(0.39030649985445615,0.39030649985445615)
+texture_filter = 1
+texture = SubResource("tree4_stump")
+material = SubResource("tree4_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree04"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree04"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree04"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree05"]
+visible = false
+position = Vector2(0,-5.452512430161114)
+scale = Vector2(0.33875056500732337,0.33875056500732337)
+texture_filter = 1
+texture = SubResource("tree5_stump")
+material = SubResource("tree5_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree05"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree05"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree05"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree06"]
+visible = false
+position = Vector2(0,-4.49010962643824)
+scale = Vector2(0.29500498301992,0.29500498301992)
+texture_filter = 1
+texture = SubResource("tree6_stump")
+material = SubResource("tree6_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree06"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree06"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree06"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree07"]
+visible = false
+position = Vector2(0,-6.819038595624912)
+scale = Vector2(0.46415992608552165,0.46415992608552165)
+texture_filter = 1
+texture = SubResource("tree7_stump")
+material = SubResource("tree7_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree07"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree07"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree07"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree08"]
+visible = false
+position = Vector2(0,-6.917614160702458)
+scale = Vector2(0.39633840714233143,0.39633840714233143)
+texture_filter = 1
+texture = SubResource("tree1_stump")
+material = SubResource("tree1_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree08"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree08"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree08"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree09"]
+visible = false
+position = Vector2(0,-5.34569835262964)
+scale = Vector2(0.257743801846654,0.257743801846654)
+texture_filter = 1
+texture = SubResource("tree2_stump")
+material = SubResource("tree2_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree09"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree09"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree09"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree10"]
+visible = false
+position = Vector2(0,-4.549920537955378)
+scale = Vector2(0.28477915382414687,0.28477915382414687)
+texture_filter = 1
+texture = SubResource("tree3_stump")
+material = SubResource("tree3_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree10"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree10"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree10"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree11"]
+visible = false
+position = Vector2(0,-6.771625320362162)
+scale = Vector2(0.38137501392878964,0.38137501392878964)
+texture_filter = 1
+texture = SubResource("tree4_stump")
+material = SubResource("tree4_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree11"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree11"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree11"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree12"]
+visible = false
+position = Vector2(0,-5.2379943320279985)
+scale = Vector2(0.32899974236490903,0.32899974236490903)
+texture_filter = 1
+texture = SubResource("tree5_stump")
+material = SubResource("tree5_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree12"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree12"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree12"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree13"]
+visible = false
+position = Vector2(0,-4.984922231643247)
+scale = Vector2(0.31749646507469304,0.31749646507469304)
+texture_filter = 1
+texture = SubResource("tree6_stump")
+material = SubResource("tree6_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree13"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree13"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree13"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree14"]
+visible = false
+position = Vector2(0,-5.979347596526406)
+scale = Vector2(0.419965662975074,0.419965662975074)
+texture_filter = 1
+texture = SubResource("tree7_stump")
+material = SubResource("tree7_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree14"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree14"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree14"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree15"]
+visible = false
+position = Vector2(0,-5.992982432215428)
+scale = Vector2(0.35524366365401905,0.35524366365401905)
+texture_filter = 1
+texture = SubResource("tree1_stump")
+material = SubResource("tree1_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree15"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree15"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree15"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree16"]
+visible = false
+position = Vector2(0,-5.145544846314243)
+scale = Vector2(0.25072087180049973,0.25072087180049973)
+texture_filter = 1
+texture = SubResource("tree2_stump")
+material = SubResource("tree2_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree16"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree16"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree16"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree17"]
+visible = false
+position = Vector2(0,-6.2051398711569075)
+scale = Vector2(0.35674521178943075,0.35674521178943075)
+texture_filter = 1
+texture = SubResource("tree3_stump")
+material = SubResource("tree3_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree17"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree17"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree17"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree18"]
+visible = false
+position = Vector2(0,-4.619865045592009)
+scale = Vector2(0.2878202193735656,0.2878202193735656)
+texture_filter = 1
+texture = SubResource("tree4_stump")
+material = SubResource("tree4_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree18"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree18"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree18"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree19"]
+visible = false
+position = Vector2(0,-4.488879956702254)
+scale = Vector2(0.2949490889410116,0.2949490889410116)
+texture_filter = 1
+texture = SubResource("tree5_stump")
+material = SubResource("tree5_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree19"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree19"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree19"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree20"]
+visible = false
+position = Vector2(0,-6.68136737191954)
+scale = Vector2(0.39460760781452453,0.39460760781452453)
+texture_filter = 1
+texture = SubResource("tree6_stump")
+material = SubResource("tree6_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree20"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree20"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree20"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree21"]
+visible = false
+position = Vector2(0,-6.280131540319587)
+scale = Vector2(0.4357963968589257,0.4357963968589257)
+texture_filter = 1
+texture = SubResource("tree7_stump")
+material = SubResource("tree7_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree21"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree21"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree21"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree22"]
+visible = false
+position = Vector2(0,-6.598246348347015)
+scale = Vector2(0.38214428214875623,0.38214428214875623)
+texture_filter = 1
+texture = SubResource("tree1_stump")
+material = SubResource("tree1_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree22"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree22"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree22"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree23"]
+visible = false
+position = Vector2(0,-6.17501362197064)
+scale = Vector2(0.28684258322704,0.28684258322704)
+texture_filter = 1
+texture = SubResource("tree2_stump")
+material = SubResource("tree2_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree23"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree23"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree23"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree24"]
+visible = false
+position = Vector2(0,-5.848157404115532)
+scale = Vector2(0.34122423496154486,0.34122423496154486)
+texture_filter = 1
+texture = SubResource("tree3_stump")
+material = SubResource("tree3_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree24"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree24"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree24"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree25"]
+visible = false
+position = Vector2(0,-7.058342921481685)
+scale = Vector2(0.39384099658616023,0.39384099658616023)
+texture_filter = 1
+texture = SubResource("tree4_stump")
+material = SubResource("tree4_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree25"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree25"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree25"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree26"]
+visible = false
+position = Vector2(0,-7.022421588705422)
+scale = Vector2(0.4101100722138828,0.4101100722138828)
+texture_filter = 1
+texture = SubResource("tree5_stump")
+material = SubResource("tree5_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree26"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree26"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree26"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree27"]
+visible = false
+position = Vector2(0,-5.682455968561787)
+scale = Vector2(0.3492025440255358,0.3492025440255358)
+texture_filter = 1
+texture = SubResource("tree6_stump")
+material = SubResource("tree6_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree27"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree27"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree27"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree28"]
+visible = false
+position = Vector2(0,-6.2934244962723564)
+scale = Vector2(0.4364960261195977,0.4364960261195977)
+texture_filter = 1
+texture = SubResource("tree7_stump")
+material = SubResource("tree7_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree28"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree28"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree28"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree29"]
+visible = false
+position = Vector2(0,-5.338604712908077)
+scale = Vector2(0.3261602094625812,0.3261602094625812)
+texture_filter = 1
+texture = SubResource("tree1_stump")
+material = SubResource("tree1_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree29"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree29"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree29"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree30"]
+visible = false
+position = Vector2(0,-5.047353760445682)
+scale = Vector2(0.3064066852367688,0.3064066852367688)
+texture_filter = 1
+texture = SubResource("tree3_stump")
+material = SubResource("tree3_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree30"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree30"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree30"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree31"]
+visible = false
+position = Vector2(0,-5.63265306122449)
+scale = Vector2(0.3469387755102041,0.3469387755102041)
+texture_filter = 1
+texture = SubResource("tree5_stump")
+material = SubResource("tree5_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree31"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree31"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree31"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Stump" type="Sprite2D" parent="Actors/EnvironmentTree32"]
+visible = false
+position = Vector2(0,-6.3067846607669615)
+scale = Vector2(0.3775811209439528,0.3775811209439528)
+texture_filter = 1
+texture = SubResource("tree6_stump")
+material = SubResource("tree6_stump_relief")
+
+[node name="WoodChips" type="CPUParticles2D" parent="Actors/EnvironmentTree32"]
+position = Vector2(0,-13)
+emitting = false
+amount = 14
+lifetime = 0.5
+one_shot = true
+explosiveness = 1.0
+direction = Vector2(0,-1)
+spread = 70.0
+gravity = Vector2(0,240)
+initial_velocity_min = 40.0
+initial_velocity_max = 90.0
+scale_amount_min = 1.5
+scale_amount_max = 3.0
+color = Color(0.72,0.47,0.25,1)
+local_coords = false
+
+[node name="HitSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree32"]
+stream = ExtResource("wood_hit")
+volume_db = -7.0
+max_distance = 600.0
+
+[node name="FallSound" type="AudioStreamPlayer2D" parent="Actors/EnvironmentTree32"]
+stream = ExtResource("tree_fall")
+volume_db = -5.0
+max_distance = 700.0
+
+[node name="Axe" type="Node2D" parent="Actors/Player"]
+z_index = 2
+script = ExtResource("axe_script")
+
+[node name="Whoosh" type="AudioStreamPlayer2D" parent="Actors/Player/Axe"]
+stream = ExtResource("whoosh")
+volume_db = -10.0
+
 [node name="Lighting" type="Node2D" parent="."]
 process_mode = 1
 script = ExtResource("day_night")
@@ -21406,3 +22642,4 @@ grow_horizontal = 2
 grow_vertical = 2
 mouse_filter = 2
 script = ExtResource("touch_controls_script")
+
